@@ -30,7 +30,7 @@ Begin VB.Form FrmLogin
    WhatsThisHelp   =   -1  'True
    Begin VB.CommandButton Command1 
       Cancel          =   -1  'True
-      Caption         =   "ÇäÕÑÇİ"
+      Caption         =   "Ø§Ù†ØµØ±Ø§Ù"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   9.75
@@ -48,7 +48,7 @@ Begin VB.Form FrmLogin
       Width           =   1095
    End
    Begin VB.CommandButton Command1 
-      Caption         =   "æÑæÏ"
+      Caption         =   "ÙˆØ±ÙˆØ¯"
       Default         =   -1  'True
       BeginProperty Font 
          Name            =   "Tahoma"
@@ -166,7 +166,7 @@ Begin VB.Form FrmLogin
          Width           =   1755
       End
       Begin VB.CommandButton CmdSpec 
-         Caption         =   "ãÔÎÕÇÊ"
+         Caption         =   "Ù…Ø´Ø®ØµØ§Øª"
          BeginProperty Font 
             Name            =   "Tahoma"
             Size            =   9.75
@@ -281,7 +281,7 @@ Begin VB.Form FrmLogin
       Begin VB.Label serial 
          Alignment       =   1  'Right Justify
          BackStyle       =   0  'Transparent
-         Caption         =   "ÓÑíÇá"
+         Caption         =   "Ø³Ø±ÙŠØ§Ù„"
          BeginProperty Font 
             Name            =   "Tahoma"
             Size            =   9.75
@@ -301,7 +301,7 @@ Begin VB.Form FrmLogin
       Begin VB.Label Label7 
          Alignment       =   1  'Right Justify
          BackStyle       =   0  'Transparent
-         Caption         =   "äÓÎå :"
+         Caption         =   "Ù†Ø³Ø®Ù‡ :"
          BeginProperty Font 
             Name            =   "Tahoma"
             Size            =   9.75
@@ -341,7 +341,7 @@ Begin VB.Form FrmLogin
       Begin VB.Label Label5 
          Alignment       =   1  'Right Justify
          BackStyle       =   0  'Transparent
-         Caption         =   "ãÔÎÕÇÊ :"
+         Caption         =   "Ù…Ø´Ø®ØµØ§Øª :"
          BeginProperty Font 
             Name            =   "Tahoma"
             Size            =   9.75
@@ -363,7 +363,7 @@ Begin VB.Form FrmLogin
          Appearance      =   0  'Flat
          BackColor       =   &H80000005&
          BackStyle       =   0  'Transparent
-         Caption         =   "ÇíÓÊÇå"
+         Caption         =   "Ø§ÙŠØ³ØªÚ¯Ø§Ù‡"
          BeginProperty Font 
             Name            =   "Tahoma"
             Size            =   9.75
@@ -386,7 +386,7 @@ Begin VB.Form FrmLogin
          Appearance      =   0  'Flat
          BackColor       =   &H80000005&
          BackStyle       =   0  'Transparent
-         Caption         =   "ÓÇá ãÇáí"
+         Caption         =   "Ø³Ø§Ù„ Ù…Ø§Ù„ÙŠ"
          BeginProperty Font 
             Name            =   "Tahoma"
             Size            =   9.75
@@ -409,7 +409,7 @@ Begin VB.Form FrmLogin
          Appearance      =   0  'Flat
          BackColor       =   &H80000005&
          BackStyle       =   0  'Transparent
-         Caption         =   "äÇã ÔÚÈå"
+         Caption         =   "Ù†Ø§Ù… Ø´Ø¹Ø¨Ù‡"
          BeginProperty Font 
             Name            =   "Tahoma"
             Size            =   9.75
@@ -432,7 +432,7 @@ Begin VB.Form FrmLogin
          Appearance      =   0  'Flat
          BackColor       =   &H80000005&
          BackStyle       =   0  'Transparent
-         Caption         =   "ÈÇäß  ÇØáÇÚÇÊí"
+         Caption         =   "Ø¨Ø§Ù†Ùƒ  Ø§Ø·Ù„Ø§Ø¹Ø§ØªÙŠ"
          BeginProperty Font 
             Name            =   "Tahoma"
             Size            =   9.75
@@ -455,7 +455,7 @@ Begin VB.Form FrmLogin
          Appearance      =   0  'Flat
          BackColor       =   &H80000005&
          BackStyle       =   0  'Transparent
-         Caption         =   "äÇã ÓÑæÑ"
+         Caption         =   "Ù†Ø§Ù… Ø³Ø±ÙˆØ±"
          BeginProperty Font 
             Name            =   "Tahoma"
             Size            =   9.75
@@ -529,7 +529,7 @@ Begin VB.Form FrmLogin
       Appearance      =   0  'Flat
       BackColor       =   &H80000005&
       BackStyle       =   0  'Transparent
-      Caption         =   "äÇã ˜ÇÑÈÑ"
+      Caption         =   "Ù†Ø§Ù… Ú©Ø§Ø±Ø¨Ø±"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   9.75
@@ -552,7 +552,7 @@ Begin VB.Form FrmLogin
       Appearance      =   0  'Flat
       BackColor       =   &H80000005&
       BackStyle       =   0  'Transparent
-      Caption         =   "ßáãå ÚÈæÑ"
+      Caption         =   "ÙƒÙ„Ù…Ù‡ Ø¹Ø¨ÙˆØ±"
       BeginProperty Font 
          Name            =   "Tahoma"
          Size            =   9.75
@@ -625,12 +625,12 @@ Private Sub CmdSpec_Click()
     
     AccessAfterClosingcash = False
     Unload frmAccess
-    frmAccess.lblTitle.Caption = " ÑãÒ ãÏíÑ ÑÇ ÈÑÇí äãÇíÔ ÇØáÇÚÇÊ æÇÑÏ ßäíÏ"
+    frmAccess.lblTitle.Caption = " Ø±Ù…Ø² Ù…Ø¯ÙŠØ± Ø±Ø§ Ø¨Ø±Ø§ÙŠ Ù†Ù…Ø§ÙŠØ´ Ø§Ø·Ù„Ø§Ø¹Ø§Øª ÙˆØ§Ø±Ø¯ ÙƒÙ†ÙŠØ¯"
     frmAccess.AccessStatus = LockShow
     frmAccess.Show vbModal
     
     If mVarAccessLevel <> 1 Then
-        ShowDisMessage "İŞØ ÈÇ ÏÓÊÑÓí ãÏíÑ ãí ÊæÇä æÇÑÏ Çíä ŞÓãÊ ÔÏ", 1500
+        ShowDisMessage "ÙÙ‚Ø· Ø¨Ø§ Ø¯Ø³ØªØ±Ø³ÙŠ Ù…Ø¯ÙŠØ± Ù…ÙŠ ØªÙˆØ§Ù† ÙˆØ§Ø±Ø¯ Ø§ÙŠÙ† Ù‚Ø³Ù…Øª Ø´Ø¯", 1500
     Else
         Unload frmClientLock
         Load frmClientLock
@@ -666,8 +666,8 @@ End Sub
 
 Private Sub TinyEvent_TinyHIDDidconnect()
     On Error Resume Next
-    MsgBox ("Şİá ÇÒ ÏÓÊÇå ÌÏÇ ÔÏ")
-'    ShowDisMessage " Şİá ÇÒ ÏÓÊÇå ÌÏÇ ÔÏ . ", 2000
+    MsgBox ("Ù‚ÙÙ„ Ø§Ø² Ø¯Ø³ØªÚ¯Ø§Ù‡ Ø¬Ø¯Ø§ Ø´Ø¯")
+'    ShowDisMessage " Ù‚ÙÙ„ Ø§Ø² Ø¯Ø³ØªÚ¯Ø§Ù‡ Ø¬Ø¯Ø§ Ø´Ø¯ . ", 2000
     Timer1.Enabled = True  ' For End
 End Sub
 
@@ -687,13 +687,13 @@ Private Sub SetTooltipText()
         '.DelayTime(flwToolTipDelayInitial) = 100
         .DelayTime(flwToolTipDelayShow) = 4000
         .DelayTime(flwToolTipDelayReshow) = 1500
-        .Text(CmbVersion) = "ÈÇ ÇäÊÎÇÈ æÑä åÇí ãÎÊáİ äÑã ÇİÒÇÑ ãíÊæÇäíÏ ÇÒ ŞÇÈáíÊ åÇí Âä ãØáÚ ÔæíÏ"
-        .Text(Label7) = "ÈÇ ÇäÊÎÇÈ æÑä åÇí ãÎÊáİ äÑã ÇİÒÇÑ ãíÊæÇäíÏ ÇÒ ŞÇÈáíÊ åÇí Âä ãØáÚ ÔæíÏ"
-        .Text(LblLimited) = " äãÇíÔ ãÔÎÕÇÊ äÑã ÇİÒÇÑ äÕÈ ÔÏå "
-        .Text(Frame2) = " äãÇíÔ ãÔÎÕÇÊ äÑã ÇİÒÇÑ äÕÈ ÔÏå "
-        .Text(TxtUserName) = "äÇã ˜ÇÑÈÑí ÑÇ æÇÑÏ ˜äíÏ."
-        .Text(txtPassword) = "ÑãÒ ÚÈæÑ ÑÇ æÇÑÏ ˜äíÏ.  "
-        .Text(cmd_FgaryaSite) = " ÇØáÇÚ ÇÒ ÂÎÑíä ãÍÕæáÇÊ æ ÏÓÊÇæÑÏåÇí Çİ Ìí ÂÑíÇ ÏÑ ÓÇíÊ "
+        .Text(CmbVersion) = "Ø¨Ø§ Ø§Ù†ØªØ®Ø§Ø¨ ÙˆØ±Ú˜Ù† Ù‡Ø§ÙŠ Ù…Ø®ØªÙ„Ù Ù†Ø±Ù… Ø§ÙØ²Ø§Ø± Ù…ÙŠØªÙˆØ§Ù†ÙŠØ¯ Ø§Ø² Ù‚Ø§Ø¨Ù„ÙŠØª Ù‡Ø§ÙŠ Ø¢Ù† Ù…Ø·Ù„Ø¹ Ø´ÙˆÙŠØ¯"
+        .Text(Label7) = "Ø¨Ø§ Ø§Ù†ØªØ®Ø§Ø¨ ÙˆØ±Ú˜Ù† Ù‡Ø§ÙŠ Ù…Ø®ØªÙ„Ù Ù†Ø±Ù… Ø§ÙØ²Ø§Ø± Ù…ÙŠØªÙˆØ§Ù†ÙŠØ¯ Ø§Ø² Ù‚Ø§Ø¨Ù„ÙŠØª Ù‡Ø§ÙŠ Ø¢Ù† Ù…Ø·Ù„Ø¹ Ø´ÙˆÙŠØ¯"
+        .Text(LblLimited) = " Ù†Ù…Ø§ÙŠØ´ Ù…Ø´Ø®ØµØ§Øª Ù†Ø±Ù… Ø§ÙØ²Ø§Ø± Ù†ØµØ¨ Ø´Ø¯Ù‡ "
+        .Text(Frame2) = " Ù†Ù…Ø§ÙŠØ´ Ù…Ø´Ø®ØµØ§Øª Ù†Ø±Ù… Ø§ÙØ²Ø§Ø± Ù†ØµØ¨ Ø´Ø¯Ù‡ "
+        .Text(TxtUserName) = "Ù†Ø§Ù… Ú©Ø§Ø±Ø¨Ø±ÙŠ Ø±Ø§ ÙˆØ§Ø±Ø¯ Ú©Ù†ÙŠØ¯."
+        .Text(txtPassword) = "Ø±Ù…Ø² Ø¹Ø¨ÙˆØ± Ø±Ø§ ÙˆØ§Ø±Ø¯ Ú©Ù†ÙŠØ¯.  "
+        .Text(cmd_FgaryaSite) = " Ø§Ø·Ù„Ø§Ø¹ Ø§Ø² Ø¢Ø®Ø±ÙŠÙ† Ù…Ø­ØµÙˆÙ„Ø§Øª Ùˆ Ø¯Ø³ØªØ§ÙˆØ±Ø¯Ù‡Ø§ÙŠ Ø§Ù Ø¬ÙŠ Ø¢Ø±ÙŠØ§ Ø¯Ø± Ø³Ø§ÙŠØª "
         .Text(Frame1) = strPolicy
     End With
 End Sub
@@ -709,15 +709,15 @@ Private Sub SetTooltipText_Demo()
         .DelayTime(flwToolTipDelayShow) = 4000
         .DelayTime(flwToolTipDelayReshow) = 1500
         If clsArya.LimitedVersion = True And HardLockFlagTrial = False Then
-            .Text(CmbVersion) = "ÈÇ ÇäÊÎÇÈ æÑä åÇí ãÎÊáİ äÑã ÇİÒÇÑ ãíÊæÇäíÏ ÇÒ ŞÇÈáíÊ åÇí Âä ãØáÚ ÔæíÏ"
-            .Text(Label7) = "ÈÇ ÇäÊÎÇÈ æÑä åÇí ãÎÊáİ äÑã ÇİÒÇÑ ãíÊæÇäíÏ ÇÒ ŞÇÈáíÊ åÇí Âä ãØáÚ ÔæíÏ"
-            .Text(LblLimited) = "Çíä ÔÑ˜Ê ÏÑ ÕæÑÊ ÇÓÊİÇÏå ÇÒ ÓíÓÊã ÂÒãÇíÔí ÈÑÇí äåÏÇÑí ÏÇÏå åÇ æ ÔÊíÈÇäí ÓíÓÊã åíæäå ãÓÆæáíÊí äÏÇÑÏ " & vbLf & "ÏÑ ÕæÑÊ ÎÑíÏ äÑã ÇİÒÇÑ ÏÇÏå åÇ ÏÑ ÓíÓÊã ÇÕáí ŞÇÈá ÇÓÊİÇÏå ãí ÈÇÔäÏ"
-            .Text(Frame2) = "Çíä ÔÑ˜Ê ÏÑ ÕæÑÊ ÇÓÊİÇÏå ÇÒ ÓíÓÊã ÂÒãÇíÔí ÈÑÇí äåÏÇÑí ÏÇÏå åÇ æ ÔÊíÈÇäí ÓíÓÊã åíæäå ãÓÆæáíÊí äÏÇÑÏ " & vbLf & "ÏÑ ÕæÑÊ ÎÑíÏ äÑã ÇİÒÇÑ ÏÇÏå åÇ ÏÑ ÓíÓÊã ÇÕáí ŞÇÈá ÇÓÊİÇÏå ãí ÈÇÔäÏ"
-            .Text(TxtUserName) = "äÇã ˜ÇÑÈÑí ÑÇ æÇÑÏ ˜äíÏ. ãŞÏÇÑ íÔ İÑÖ  " & "0" & "  ãí ÈÇÔÏ"
-            .Text(txtPassword) = "ÑãÒ ÚÈæÑ ÑÇ æÇÑÏ ˜äíÏ. ãŞÏÇÑ íÔ İÑÖ  " & "100" & "  ãí ÈÇÔÏ"
+            .Text(CmbVersion) = "Ø¨Ø§ Ø§Ù†ØªØ®Ø§Ø¨ ÙˆØ±Ú˜Ù† Ù‡Ø§ÙŠ Ù…Ø®ØªÙ„Ù Ù†Ø±Ù… Ø§ÙØ²Ø§Ø± Ù…ÙŠØªÙˆØ§Ù†ÙŠØ¯ Ø§Ø² Ù‚Ø§Ø¨Ù„ÙŠØª Ù‡Ø§ÙŠ Ø¢Ù† Ù…Ø·Ù„Ø¹ Ø´ÙˆÙŠØ¯"
+            .Text(Label7) = "Ø¨Ø§ Ø§Ù†ØªØ®Ø§Ø¨ ÙˆØ±Ú˜Ù† Ù‡Ø§ÙŠ Ù…Ø®ØªÙ„Ù Ù†Ø±Ù… Ø§ÙØ²Ø§Ø± Ù…ÙŠØªÙˆØ§Ù†ÙŠØ¯ Ø§Ø² Ù‚Ø§Ø¨Ù„ÙŠØª Ù‡Ø§ÙŠ Ø¢Ù† Ù…Ø·Ù„Ø¹ Ø´ÙˆÙŠØ¯"
+            .Text(LblLimited) = "Ø§ÙŠÙ† Ø´Ø±Ú©Øª Ø¯Ø± ØµÙˆØ±Øª Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² Ø³ÙŠØ³ØªÙ… Ø¢Ø²Ù…Ø§ÙŠØ´ÙŠ Ø¨Ø±Ø§ÙŠ Ù†Ú¯Ù‡Ø¯Ø§Ø±ÙŠ Ø¯Ø§Ø¯Ù‡ Ù‡Ø§ Ùˆ Ù¾Ø´ØªÙŠØ¨Ø§Ù†ÙŠ Ø³ÙŠØ³ØªÙ… Ù‡ÙŠÚ†Ú¯ÙˆÙ†Ù‡ Ù…Ø³Ø¦ÙˆÙ„ÙŠØªÙŠ Ù†Ø¯Ø§Ø±Ø¯ " & vbLf & "Ø¯Ø± ØµÙˆØ±Øª Ø®Ø±ÙŠØ¯ Ù†Ø±Ù… Ø§ÙØ²Ø§Ø± Ø¯Ø§Ø¯Ù‡ Ù‡Ø§ Ø¯Ø± Ø³ÙŠØ³ØªÙ… Ø§ØµÙ„ÙŠ Ù‚Ø§Ø¨Ù„ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÙŠ Ø¨Ø§Ø´Ù†Ø¯"
+            .Text(Frame2) = "Ø§ÙŠÙ† Ø´Ø±Ú©Øª Ø¯Ø± ØµÙˆØ±Øª Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² Ø³ÙŠØ³ØªÙ… Ø¢Ø²Ù…Ø§ÙŠØ´ÙŠ Ø¨Ø±Ø§ÙŠ Ù†Ú¯Ù‡Ø¯Ø§Ø±ÙŠ Ø¯Ø§Ø¯Ù‡ Ù‡Ø§ Ùˆ Ù¾Ø´ØªÙŠØ¨Ø§Ù†ÙŠ Ø³ÙŠØ³ØªÙ… Ù‡ÙŠÚ†Ú¯ÙˆÙ†Ù‡ Ù…Ø³Ø¦ÙˆÙ„ÙŠØªÙŠ Ù†Ø¯Ø§Ø±Ø¯ " & vbLf & "Ø¯Ø± ØµÙˆØ±Øª Ø®Ø±ÙŠØ¯ Ù†Ø±Ù… Ø§ÙØ²Ø§Ø± Ø¯Ø§Ø¯Ù‡ Ù‡Ø§ Ø¯Ø± Ø³ÙŠØ³ØªÙ… Ø§ØµÙ„ÙŠ Ù‚Ø§Ø¨Ù„ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ù…ÙŠ Ø¨Ø§Ø´Ù†Ø¯"
+            .Text(TxtUserName) = "Ù†Ø§Ù… Ú©Ø§Ø±Ø¨Ø±ÙŠ Ø±Ø§ ÙˆØ§Ø±Ø¯ Ú©Ù†ÙŠØ¯. Ù…Ù‚Ø¯Ø§Ø± Ù¾ÙŠØ´ ÙØ±Ø¶  " & "0" & "  Ù…ÙŠ Ø¨Ø§Ø´Ø¯"
+            .Text(txtPassword) = "Ø±Ù…Ø² Ø¹Ø¨ÙˆØ± Ø±Ø§ ÙˆØ§Ø±Ø¯ Ú©Ù†ÙŠØ¯. Ù…Ù‚Ø¯Ø§Ø± Ù¾ÙŠØ´ ÙØ±Ø¶  " & "100" & "  Ù…ÙŠ Ø¨Ø§Ø´Ø¯"
         End If
         .Text(Frame1) = strPolicy
-        .Text(cmd_FgaryaSite) = " ÇØáÇÚ ÇÒ ÂÎÑíä ãÍÕæáÇÊ æ ÏÓÊÇæÑÏåÇí Çİ Ìí ÂÑíÇ ÏÑ ÓÇíÊ "
+        .Text(cmd_FgaryaSite) = " Ø§Ø·Ù„Ø§Ø¹ Ø§Ø² Ø¢Ø®Ø±ÙŠÙ† Ù…Ø­ØµÙˆÙ„Ø§Øª Ùˆ Ø¯Ø³ØªØ§ÙˆØ±Ø¯Ù‡Ø§ÙŠ Ø§Ù Ø¬ÙŠ Ø¢Ø±ÙŠØ§ Ø¯Ø± Ø³Ø§ÙŠØª "
     End With
 End Sub
 ''''Private Sub BtnKeypad_Click(Index As Integer)
@@ -796,7 +796,7 @@ End Sub
 Private Sub cmbSalMali_Change()
     If SalMaliFocusFlag = False Then Exit Sub
     AccountYear = Val(cmbSalMali.Text)
-'    mdifrm.sbStatusBar.Panels.Item(4).Text = "ÓÇá ãÇáí : " + AccountYear
+'    mdifrm.sbStatusBar.Panels.Item(4).Text = "Ø³Ø§Ù„ Ù…Ø§Ù„ÙŠ : " + AccountYear
     SaveSetting strMainKey, "SalMali", "SalMali", AccountYear
 End Sub
 
@@ -867,21 +867,21 @@ Private Sub Command1_Click(index As Integer)
     ElseIf index = 0 Then 'ok
         
         Dim Updated As Boolean
-         strtemporary = "|‚hgke"
+         strtemporary = "|Ù¾â€šhgke"
          strtemporary = DText((strtemporary), frmfactor.Label1.Caption)
-         strtemporary1 = "|‚€hgkf"
+         strtemporary1 = "|Ù¾â€šâ‚¬hgkf"
          strtemporary1 = DText((strtemporary1), frmfactor.Label1.Caption)
-         strtemporary2 = "|‚hgkg"
+         strtemporary2 = "|Ù¾â€šÙ¾hgkg"
          strtemporary2 = DText((strtemporary2), frmfactor.Label1.Caption)
         
         If Me.txtPassword.Text = strtemporary Then   'Zap Databse
             
-              frmMsg.fwlblMsg.Caption = "ÂíÇ ÈÑÇí Çß ßÑÏä ÏíÊÇ İÑæÔ ÇØãíäÇä ÏÇÑíÏ"
+              frmMsg.fwlblMsg.Caption = "Ø¢ÙŠØ§ Ø¨Ø±Ø§ÙŠ Ù¾Ø§Ùƒ ÙƒØ±Ø¯Ù† Ø¯ÙŠØªØ§ ÙØ±ÙˆØ´ Ø§Ø·Ù…ÙŠÙ†Ø§Ù† Ø¯Ø§Ø±ÙŠØ¯"
             ' frmMsg.fwBtn(0).Visible = True
               frmMsg.fwBtn(0).ButtonType = flwButtonOk
               frmMsg.fwBtn(1).ButtonType = flwButtonCancel
-              frmMsg.fwBtn(0).Caption = "Èáí"
-              frmMsg.fwBtn(1).Caption = "ÎíÑ"
+              frmMsg.fwBtn(0).Caption = "Ø¨Ù„ÙŠ"
+              frmMsg.fwBtn(1).Caption = "Ø®ÙŠØ±"
               frmMsg.Show vbModal
               If mvarMsgIdx = vbYes Then
                  ReDim Parameter(0) As Parameter
@@ -891,23 +891,23 @@ Private Sub Command1_Click(index As Integer)
                  Updated = RunParametricStoredProcedure("Zap_Sale_DataBase", Parameter)
                  If Updated = True Then
                  
-                     MsgBox "Çß ßÑÏä ÈÇ ãæİŞíÊ ÇäÌÇã ÔÏ" & vbLf & "ÈÑäÇãå ÑÇ ãÌÏÏÇ ÇÌÑÇ ßäíÏ"
+                     MsgBox "Ù¾Ø§Ùƒ ÙƒØ±Ø¯Ù† Ø¨Ø§ Ù…ÙˆÙÙ‚ÙŠØª Ø§Ù†Ø¬Ø§Ù… Ø´Ø¯" & vbLf & "Ø¨Ø±Ù†Ø§Ù…Ù‡ Ø±Ø§ Ù…Ø¬Ø¯Ø¯Ø§ Ø§Ø¬Ø±Ø§ ÙƒÙ†ÙŠØ¯"
                      End
                  Else
-                     MsgBox "ÇÔßÇá ÏÑ Çß ÓÇÒí ÏíÊÇ" & vbLf & "ÈÇ ÔÑßÊ Çİ Ìí ÂÑíÇ ÊãÇÓ ÈíÑíÏ"
+                     MsgBox "Ø§Ø´ÙƒØ§Ù„ Ø¯Ø± Ù¾Ø§Ùƒ Ø³Ø§Ø²ÙŠ Ø¯ÙŠØªØ§" & vbLf & "Ø¨Ø§ Ø´Ø±ÙƒØª Ø§Ù Ø¬ÙŠ Ø¢Ø±ÙŠØ§ ØªÙ…Ø§Ø³ Ø¨Ú¯ÙŠØ±ÙŠØ¯"
                  End If
              Else
-                 MsgBox "ÈÑäÇãå ÑÇ ãÌÏÏÇ ÇÌÑÇ ßäíÏ"
+                 MsgBox "Ø¨Ø±Ù†Ø§Ù…Ù‡ Ø±Ø§ Ù…Ø¬Ø¯Ø¯Ø§ Ø§Ø¬Ø±Ø§ ÙƒÙ†ÙŠØ¯"
                  End
              End If
         ElseIf Me.txtPassword.Text = strtemporary1 Then   'Zap Databse
             
-              frmMsg.fwlblMsg.Caption = " ÂíÇ ÈÑÇí Çß ßÑÏä ÏíÊÇ ßÇáÇåÇ ÇØãíäÇä ÏÇÑíÏ - ÏíÊÇ İÑæÔ äíÒ Çß ÎæÇåÏ ÔÏ "
+              frmMsg.fwlblMsg.Caption = " Ø¢ÙŠØ§ Ø¨Ø±Ø§ÙŠ Ù¾Ø§Ùƒ ÙƒØ±Ø¯Ù† Ø¯ÙŠØªØ§ ÙƒØ§Ù„Ø§Ù‡Ø§ Ø§Ø·Ù…ÙŠÙ†Ø§Ù† Ø¯Ø§Ø±ÙŠØ¯ - Ø¯ÙŠØªØ§ ÙØ±ÙˆØ´ Ù†ÙŠØ² Ù¾Ø§Ùƒ Ø®ÙˆØ§Ù‡Ø¯ Ø´Ø¯ "
             ' frmMsg.fwBtn(0).Visible = True
               frmMsg.fwBtn(0).ButtonType = flwButtonOk
               frmMsg.fwBtn(1).ButtonType = flwButtonCancel
-              frmMsg.fwBtn(0).Caption = "Èáí"
-              frmMsg.fwBtn(1).Caption = "ÎíÑ"
+              frmMsg.fwBtn(0).Caption = "Ø¨Ù„ÙŠ"
+              frmMsg.fwBtn(1).Caption = "Ø®ÙŠØ±"
               frmMsg.Show vbModal
               If mvarMsgIdx = vbYes Then
                  ReDim Parameter(0) As Parameter
@@ -921,29 +921,29 @@ Private Sub Command1_Click(index As Integer)
                      Parameter(0) = GenerateOutputParameter("@Result", adInteger, 4)
                      Updated = RunParametricStoredProcedure("Zap_Goods_DataBase", Parameter)
                      If Updated = 1 Then
-                        MsgBox "Çß ßÑÏä ÈÇ ãæİŞíÊ ÇäÌÇã ÔÏ" & vbLf & "ÈÑäÇãå ÑÇ ãÌÏÏÇ ÇÌÑÇ ßäíÏ"
+                        MsgBox "Ù¾Ø§Ùƒ ÙƒØ±Ø¯Ù† Ø¨Ø§ Ù…ÙˆÙÙ‚ÙŠØª Ø§Ù†Ø¬Ø§Ù… Ø´Ø¯" & vbLf & "Ø¨Ø±Ù†Ø§Ù…Ù‡ Ø±Ø§ Ù…Ø¬Ø¯Ø¯Ø§ Ø§Ø¬Ø±Ø§ ÙƒÙ†ÙŠØ¯"
                         End
                      Else
-                        MsgBox "ÇÔßÇá ÏÑ Çß ÓÇÒí ÏíÊÇí ßÇáÇåÇ" & vbLf & "ÈÇ ÔÑßÊ Çİ Ìí ÂÑíÇ  ÊãÇÓ ÈíÑíÏ"
+                        MsgBox "Ø§Ø´ÙƒØ§Ù„ Ø¯Ø± Ù¾Ø§Ùƒ Ø³Ø§Ø²ÙŠ Ø¯ÙŠØªØ§ÙŠ ÙƒØ§Ù„Ø§Ù‡Ø§" & vbLf & "Ø¨Ø§ Ø´Ø±ÙƒØª Ø§Ù Ø¬ÙŠ Ø¢Ø±ÙŠØ§  ØªÙ…Ø§Ø³ Ø¨Ú¯ÙŠØ±ÙŠØ¯"
                         End
                      End If
                  Else
-                     MsgBox "ÇÔßÇá ÏÑ Çß ÓÇÒí ÏíÊÇí İÑæÔ" & vbLf & "ÈÇ ÔÑßÊ Çİ Ìí ÂÑíÇ ÊãÇÓ ÈíÑíÏ"
+                     MsgBox "Ø§Ø´ÙƒØ§Ù„ Ø¯Ø± Ù¾Ø§Ùƒ Ø³Ø§Ø²ÙŠ Ø¯ÙŠØªØ§ÙŠ ÙØ±ÙˆØ´" & vbLf & "Ø¨Ø§ Ø´Ø±ÙƒØª Ø§Ù Ø¬ÙŠ Ø¢Ø±ÙŠØ§ ØªÙ…Ø§Ø³ Ø¨Ú¯ÙŠØ±ÙŠØ¯"
                      End
                  End If
              Else
-                 MsgBox "ÈÑäÇãå ÑÇ ãÌÏÏÇ ÇÌÑÇ ßäíÏ"
+                 MsgBox "Ø¨Ø±Ù†Ø§Ù…Ù‡ Ø±Ø§ Ù…Ø¬Ø¯Ø¯Ø§ Ø§Ø¬Ø±Ø§ ÙƒÙ†ÙŠØ¯"
                  End
              End If
             
         ElseIf Me.txtPassword.Text = strtemporary2 Then   'Zap Databse
             
-              frmMsg.fwlblMsg.Caption = "ÂíÇ ÈÑÇí Çß ßÑÏä ßá ÏíÊÇåÇ ÇØãíäÇä ÏÇÑíÏ"
+              frmMsg.fwlblMsg.Caption = "Ø¢ÙŠØ§ Ø¨Ø±Ø§ÙŠ Ù¾Ø§Ùƒ ÙƒØ±Ø¯Ù† ÙƒÙ„ Ø¯ÙŠØªØ§Ù‡Ø§ Ø§Ø·Ù…ÙŠÙ†Ø§Ù† Ø¯Ø§Ø±ÙŠØ¯"
             ' frmMsg.fwBtn(0).Visible = True
               frmMsg.fwBtn(0).ButtonType = flwButtonOk
               frmMsg.fwBtn(1).ButtonType = flwButtonCancel
-              frmMsg.fwBtn(0).Caption = "Èáí"
-              frmMsg.fwBtn(1).Caption = "ÎíÑ"
+              frmMsg.fwBtn(0).Caption = "Ø¨Ù„ÙŠ"
+              frmMsg.fwBtn(1).Caption = "Ø®ÙŠØ±"
               frmMsg.Show vbModal
               If mvarMsgIdx = vbYes Then
                  ReDim Parameter(0) As Parameter
@@ -953,13 +953,13 @@ Private Sub Command1_Click(index As Integer)
                  Updated = RunParametricStoredProcedure("Zap_All_DataBase", Parameter)
                  If Updated = True Then
                  
-                     MsgBox "Çß ßÑÏä ÈÇ ãæİŞíÊ ÇäÌÇã ÔÏ" & vbLf & "ÈÑäÇãå ÑÇ ãÌÏÏÇ ÇÌÑÇ ßäíÏ"
+                     MsgBox "Ù¾Ø§Ùƒ ÙƒØ±Ø¯Ù† Ø¨Ø§ Ù…ÙˆÙÙ‚ÙŠØª Ø§Ù†Ø¬Ø§Ù… Ø´Ø¯" & vbLf & "Ø¨Ø±Ù†Ø§Ù…Ù‡ Ø±Ø§ Ù…Ø¬Ø¯Ø¯Ø§ Ø§Ø¬Ø±Ø§ ÙƒÙ†ÙŠØ¯"
                      End
                  Else
-                     MsgBox "ÇÔßÇá ÏÑ Çß ÓÇÒí ÏíÊÇ" & vbLf & "ÈÇ ÔÑßÊ Çİ Ìí ÂÑíÇ ÊãÇÓ ÈíÑíÏ"
+                     MsgBox "Ø§Ø´ÙƒØ§Ù„ Ø¯Ø± Ù¾Ø§Ùƒ Ø³Ø§Ø²ÙŠ Ø¯ÙŠØªØ§" & vbLf & "Ø¨Ø§ Ø´Ø±ÙƒØª Ø§Ù Ø¬ÙŠ Ø¢Ø±ÙŠØ§ ØªÙ…Ø§Ø³ Ø¨Ú¯ÙŠØ±ÙŠØ¯"
                  End If
              Else
-                 MsgBox "ÈÑäÇãå ÑÇ ãÌÏÏÇ ÇÌÑÇ ßäíÏ"
+                 MsgBox "Ø¨Ø±Ù†Ø§Ù…Ù‡ Ø±Ø§ Ù…Ø¬Ø¯Ø¯Ø§ Ø§Ø¬Ø±Ø§ ÙƒÙ†ÙŠØ¯"
                  End
              End If
             
@@ -975,12 +975,12 @@ Private Sub Command1_Click(index As Integer)
             Set Rst = RunParametricStoredProcedure2Rec("Get_ScriptNo_DataBase", Parameters)
             
             If Rst.EOF = True And Rst.BOF = True Then
-                MsgBox "ÇÔßÇá ÏÑ ÎæÇäÏä ÔãÇÑå äÓÎå ÏíÊÇ ÈíÓ " & vbLf & "ÈÇ ÔÑßÊ Çİ Ìí ÂÑíÇ ÊãÇÓ ÈíÑíÏ"
+                MsgBox "Ø§Ø´ÙƒØ§Ù„ Ø¯Ø± Ø®ÙˆØ§Ù†Ø¯Ù† Ø´Ù…Ø§Ø±Ù‡ Ù†Ø³Ø®Ù‡ Ø¯ÙŠØªØ§ Ø¨ÙŠØ³ " & vbLf & "Ø¨Ø§ Ø´Ø±ÙƒØª Ø§Ù Ø¬ÙŠ Ø¢Ø±ÙŠØ§ ØªÙ…Ø§Ø³ Ø¨Ú¯ÙŠØ±ÙŠØ¯"
                 End
             
             Else
                 If Rst!ScriptNo < CurrentScriptNo Then
-                    MsgBox "CurrentScriptNo = " & CurrentScriptNo & vbLf & "LastScriptNo = " & Rst!ScriptNo & vbLf & "Çíä äÓÎå ÇÒ ÈÑäÇãå ÈÇ ÔãÇÑå ÂÎÑíä ÇÓßÑíÊ ãÑÈæØå åãÇåä äíÓÊ - " & vbLf & "ÏŞÊ ÔæÏ ÇãßÇä ÎØÇ æÌæÏ ÏÇÑÏ"
+                    MsgBox "CurrentScriptNo = " & CurrentScriptNo & vbLf & "LastScriptNo = " & Rst!ScriptNo & vbLf & "Ø§ÙŠÙ† Ù†Ø³Ø®Ù‡ Ø§Ø² Ø¨Ø±Ù†Ø§Ù…Ù‡ Ø¨Ø§ Ø´Ù…Ø§Ø±Ù‡ Ø¢Ø®Ø±ÙŠÙ† Ø§Ø³ÙƒØ±ÙŠÙ¾Øª Ù…Ø±Ø¨ÙˆØ·Ù‡ Ù‡Ù…Ø§Ù‡Ù†Ú¯ Ù†ÙŠØ³Øª - " & vbLf & "Ø¯Ù‚Øª Ø´ÙˆØ¯ Ø§Ù…ÙƒØ§Ù† Ø®Ø·Ø§ ÙˆØ¬ÙˆØ¯ Ø¯Ø§Ø±Ø¯"
                 End If
             End If
             
@@ -989,28 +989,28 @@ Private Sub Command1_Click(index As Integer)
             
             If Rst.EOF = True And Rst.BOF = True Then
                            
-                frmMsg.fwlblMsg.Caption = "ßáãå ÚÈæÑ ÏÑÓÊ äíÓÊ"
+                frmMsg.fwlblMsg.Caption = "ÙƒÙ„Ù…Ù‡ Ø¹Ø¨ÙˆØ± Ø¯Ø±Ø³Øª Ù†ÙŠØ³Øª"
                 frmMsg.fwBtn(0).Visible = False
                 frmMsg.fwBtn(1).ButtonType = flwButtonOk
-                frmMsg.fwBtn(1).Caption = "ŞÈæá"
+                frmMsg.fwBtn(1).Caption = "Ù‚Ø¨ÙˆÙ„"
                 frmMsg.Show vbModal
                 Me.txtPassword.Text = ""
                 Me.txtPassword.SetFocus
                 Exit Sub
              ElseIf Rst.Fields("ActDeAct") = 0 Then
-                frmMsg.fwlblMsg.Caption = "˜ÇÑÈÑ ÛíÑ İÚÇá ÇÓÊ "
+                frmMsg.fwlblMsg.Caption = "Ú©Ø§Ø±Ø¨Ø± ØºÙŠØ± ÙØ¹Ø§Ù„ Ø§Ø³Øª "
                 frmMsg.fwBtn(0).Visible = False
                 frmMsg.fwBtn(1).ButtonType = flwButtonOk
-                frmMsg.fwBtn(1).Caption = "ŞÈæá"
+                frmMsg.fwBtn(1).Caption = "Ù‚Ø¨ÙˆÙ„"
                 frmMsg.Show vbModal
                 Me.txtPassword.Text = ""
                 Me.txtPassword.SetFocus
                 Exit Sub
              ElseIf Rst.Fields("Job") = 9 Then
-                frmMsg.fwlblMsg.Caption = "ÇÑÓæä äãí ÊæÇäÏ æÇÑÏ ÓíÓÊã ÔæÏ"
+                frmMsg.fwlblMsg.Caption = "Ú¯Ø§Ø±Ø³ÙˆÙ† Ù†Ù…ÙŠ ØªÙˆØ§Ù†Ø¯ ÙˆØ§Ø±Ø¯ Ø³ÙŠØ³ØªÙ… Ø´ÙˆØ¯"
                 frmMsg.fwBtn(0).Visible = False
                 frmMsg.fwBtn(1).ButtonType = flwButtonOk
-                frmMsg.fwBtn(1).Caption = "ŞÈæá"
+                frmMsg.fwBtn(1).Caption = "Ù‚Ø¨ÙˆÙ„"
                 frmMsg.Show vbModal
                 Me.txtPassword.Text = ""
                 Me.txtPassword.SetFocus
@@ -1049,14 +1049,14 @@ Private Sub Command1_Click(index As Integer)
                 
                 If clsStation.Language = Farsi Then
                     If strDelegate = "17" Then
-                        mdifrm.StatusBar1.Panels(1).Text = " ÔÚÈå :" & CurrentBranchName & " | " & "Èå ÓİÇÑÔ ãæÓÓå ÍÓÇÈÑÓí ÎÇŞÇäí -  03412521758" & " | " & "ÇÌÑÇ :  ÔÑ˜Ê İä ÂæÑÓÊÑÂÑíÇ _ Êáİä :" & "  +982188554455,+982188554466,+982188554477,+982188554488"
+                        mdifrm.StatusBar1.Panels(1).Text = " Ø´Ø¹Ø¨Ù‡ :" & CurrentBranchName & " | " & "Ø¨Ù‡ Ø³ÙØ§Ø±Ø´ Ù…ÙˆØ³Ø³Ù‡ Ø­Ø³Ø§Ø¨Ø±Ø³ÙŠ Ø®Ø§Ù‚Ø§Ù†ÙŠ -  03412521758" & " | " & "Ø§Ø¬Ø±Ø§ :  Ø´Ø±Ú©Øª ÙÙ† Ø¢ÙˆØ±Ú¯Ø³ØªØ±Ø¢Ø±ÙŠØ§ _ ØªÙ„ÙÙ† :" & "  +982188554455,+982188554466,+982188554477,+982188554488"
                     ElseIf strDelegate = "24" Then
-                        mdifrm.StatusBar1.Panels(1).Text = "Èå ÓİÇÑÔ ÔÑ˜Ê Ê˜íä Çá˜ÊÑæäí˜ ÇÓÇÑÇÏ - Êáİä 22263035(09821) İ˜Ó  22916851" & " | "  ' & "ÇÌÑÇ :  ÔÑ˜Ê İä ÂæÑÓÊÑÂÑíÇ _ Êáİä :" & "  +982188554455,+982188554466,+982188554477,+982188554488"
+                        mdifrm.StatusBar1.Panels(1).Text = "Ø¨Ù‡ Ø³ÙØ§Ø±Ø´ Ø´Ø±Ú©Øª ØªÚ©ÙŠÙ† Ø§Ù„Ú©ØªØ±ÙˆÙ†ÙŠÚ© Ù¾Ø§Ø³Ø§Ø±Ú¯Ø§Ø¯ - ØªÙ„ÙÙ† 22263035(09821) ÙÚ©Ø³  22916851" & " | "  ' & "Ø§Ø¬Ø±Ø§ :  Ø´Ø±Ú©Øª ÙÙ† Ø¢ÙˆØ±Ú¯Ø³ØªØ±Ø¢Ø±ÙŠØ§ _ ØªÙ„ÙÙ† :" & "  +982188554455,+982188554466,+982188554477,+982188554488"
                     ElseIf strDelegate = "56" Then
-                        mdifrm.StatusBar1.Panels(1).Text = "In Order Of MoeinReklam Co " & " | " & " 07708615501 - 07708615502 - 07480151660 "    ' & "ÇÌÑÇ :  ÔÑ˜Ê İä ÂæÑÓÊÑÂÑíÇ _ Êáİä :" & "  +982188554455,+982188554466,+982188554477,+982188554488"
+                        mdifrm.StatusBar1.Panels(1).Text = "In Order Of MoeinReklam Co " & " | " & " 07708615501 - 07708615502 - 07480151660 "    ' & "Ø§Ø¬Ø±Ø§ :  Ø´Ø±Ú©Øª ÙÙ† Ø¢ÙˆØ±Ú¯Ø³ØªØ±Ø¢Ø±ÙŠØ§ _ ØªÙ„ÙÙ† :" & "  +982188554455,+982188554466,+982188554477,+982188554488"
                     Else
-                        mdifrm.StatusBar1.Panels(1).Text = " ÔÚÈå :" & CurrentBranchName & " | " & "ÇÌÑÇ: ÔÑ˜Ê ãåäÏÓí İä ÂæÑÓÊÑÂÑíÇ _ Êáİä :" & "  +982188554455,+982188554466,+982188554477,+982188554488"
-                      '  mdifrm.StatusBar1.Panels(1).Text = "ÇÌÑÇ: ÔÑ˜Ê ãåäÏÓí İä ÂæÑÓÊÑÂÑíÇ " '& "  +982188554455,+982188554466,+982188554477,+982188554488" ' " ÔÚÈå :" & CurrentBranchName & " | " &
+                        mdifrm.StatusBar1.Panels(1).Text = " Ø´Ø¹Ø¨Ù‡ :" & CurrentBranchName & " | " & "Ø§Ø¬Ø±Ø§: Ø´Ø±Ú©Øª Ù…Ù‡Ù†Ø¯Ø³ÙŠ ÙÙ† Ø¢ÙˆØ±Ú¯Ø³ØªØ±Ø¢Ø±ÙŠØ§ _ ØªÙ„ÙÙ† :" & "  +982188554455,+982188554466,+982188554477,+982188554488"
+                      '  mdifrm.StatusBar1.Panels(1).Text = "Ø§Ø¬Ø±Ø§: Ø´Ø±Ú©Øª Ù…Ù‡Ù†Ø¯Ø³ÙŠ ÙÙ† Ø¢ÙˆØ±Ú¯Ø³ØªØ±Ø¢Ø±ÙŠØ§ " '& "  +982188554455,+982188554466,+982188554477,+982188554488" ' " Ø´Ø¹Ø¨Ù‡ :" & CurrentBranchName & " | " &
                     End If
                     mdifrm.StatusBar1.Panels(3).Text = clsDate.shamsi(Date)
                     mdifrm.StatusBar1.Panels(4).Text = mdifrm.StatusBar1.Panels(4).Text & " = " & aa
@@ -1064,7 +1064,7 @@ Private Sub Command1_Click(index As Integer)
                     mdifrm.StatusBar1.Panels(6).Text = mdifrm.StatusBar1.Panels(6).Text & SoftwareVersion & "_" & CurrentScriptNo
                 Else
                     If strDelegate = "56" Then
-                        mdifrm.StatusBar1.Panels(1).Text = "In Order Of MoeinReklam Co " & " | " & " 07708615501 - 07708615502 - 07480151660 "    ' & "ÇÌÑÇ :  ÔÑ˜Ê İä ÂæÑÓÊÑÂÑíÇ _ Êáİä :" & "  +982188554455,+982188554466,+982188554477,+982188554488"
+                        mdifrm.StatusBar1.Panels(1).Text = "In Order Of MoeinReklam Co " & " | " & " 07708615501 - 07708615502 - 07480151660 "    ' & "Ø§Ø¬Ø±Ø§ :  Ø´Ø±Ú©Øª ÙÙ† Ø¢ÙˆØ±Ú¯Ø³ØªØ±Ø¢Ø±ÙŠØ§ _ ØªÙ„ÙÙ† :" & "  +982188554455,+982188554466,+982188554477,+982188554488"
                     Else
                         mdifrm.StatusBar1.Panels(1).Text = " Branch :" & CurrentBranchName & " | " & "WWW.FGARYA.COM / TEl :" & "  +982188554455,+982188554466,+982188554477,+982188554488"
                     End If
@@ -1074,13 +1074,13 @@ Private Sub Command1_Click(index As Integer)
                     mdifrm.StatusBar1.Panels(6).Text = mdifrm.StatusBar1.Panels(6).Text & SoftwareVersion & "_" & CurrentScriptNo
                  End If
                  If AccountYear <> left(clsDate.shamsi(Date), 4) Then
-                     frmMsg.fwlblMsg.Caption = "ÂíÇ ãÇíáíÏ ÈÇ ÓÇá ãÇáí -" & AccountYear & " - ˜å ãÎÇáİ ÊÇÑíÎ İÚáí ÇÓÊ !ÇÏÇãå ÏåíÏ¿ "
-                     frmMsg.fwlblMsg.Caption = frmMsg.fwlblMsg.Caption & "ÏÑ ÕæÑÊ ÇäÊÎÇÈ Èáí ÓíÓÊã ÈÇ åãíä ÓÇá ãÇáí ÇÏÇãå ãí ÏåÏ"
-                     frmMsg.fwlblMsg.Caption = frmMsg.fwlblMsg.Caption & " æ ÏÑ ÕæÑÊ ÇäÊÎÇÈ ÎíÑ ÓíÓÊã ÓÇá ãÇáí ÌÏíÏ ÑÇ ÓÇÎÊå æ ÈÇ ÓÇá ãÇáí ÌÏíÏ ÇÏÇãå ãí ÏåÏ"
+                     frmMsg.fwlblMsg.Caption = "Ø¢ÙŠØ§ Ù…Ø§ÙŠÙ„ÙŠØ¯ Ø¨Ø§ Ø³Ø§Ù„ Ù…Ø§Ù„ÙŠ -" & AccountYear & " - Ú©Ù‡ Ù…Ø®Ø§Ù„Ù ØªØ§Ø±ÙŠØ® ÙØ¹Ù„ÙŠ Ø§Ø³Øª !Ø§Ø¯Ø§Ù…Ù‡ Ø¯Ù‡ÙŠØ¯ØŸ "
+                     frmMsg.fwlblMsg.Caption = frmMsg.fwlblMsg.Caption & "Ø¯Ø± ØµÙˆØ±Øª Ø§Ù†ØªØ®Ø§Ø¨ Ø¨Ù„ÙŠ Ø³ÙŠØ³ØªÙ… Ø¨Ø§ Ù‡Ù…ÙŠÙ† Ø³Ø§Ù„ Ù…Ø§Ù„ÙŠ Ø§Ø¯Ø§Ù…Ù‡ Ù…ÙŠ Ø¯Ù‡Ø¯"
+                     frmMsg.fwlblMsg.Caption = frmMsg.fwlblMsg.Caption & " Ùˆ Ø¯Ø± ØµÙˆØ±Øª Ø§Ù†ØªØ®Ø§Ø¨ Ø®ÙŠØ± Ø³ÙŠØ³ØªÙ… Ø³Ø§Ù„ Ù…Ø§Ù„ÙŠ Ø¬Ø¯ÙŠØ¯ Ø±Ø§ Ø³Ø§Ø®ØªÙ‡ Ùˆ Ø¨Ø§ Ø³Ø§Ù„ Ù…Ø§Ù„ÙŠ Ø¬Ø¯ÙŠØ¯ Ø§Ø¯Ø§Ù…Ù‡ Ù…ÙŠ Ø¯Ù‡Ø¯"
                      frmMsg.fwBtn(0).ButtonType = flwButtonOk
-                     frmMsg.fwBtn(0).Caption = "Èáí"
+                     frmMsg.fwBtn(0).Caption = "Ø¨Ù„ÙŠ"
                      frmMsg.fwBtn(1).Visible = flwButtonCancel
-                     frmMsg.fwBtn(1).Caption = "ÎíÑ"
+                     frmMsg.fwBtn(1).Caption = "Ø®ÙŠØ±"
                      frmMsg.fwBtn(1).Default = True
                      frmMsg.Show vbModal
                      If mvarMsgIdx = vbNo Then
@@ -1093,16 +1093,16 @@ Private Sub Command1_Click(index As Integer)
                          Result = RunParametricStoredProcedure("Insert_tAccountYears", Parameter)
                          
                          If Result = 1 Then
-                             frmMsg.fwlblMsg.Caption = "ÓÇá ãÇáí ÌÏíÏ -" & AccountYear & "- ÓÇÎÊå ÔÏ."
+                             frmMsg.fwlblMsg.Caption = "Ø³Ø§Ù„ Ù…Ø§Ù„ÙŠ Ø¬Ø¯ÙŠØ¯ -" & AccountYear & "- Ø³Ø§Ø®ØªÙ‡ Ø´Ø¯."
                              frmMsg.fwBtn(0).Visible = False
                              frmMsg.fwBtn(1).ButtonType = flwButtonOk
-                             frmMsg.fwBtn(1).Caption = "ŞÈæá"
+                             frmMsg.fwBtn(1).Caption = "Ù‚Ø¨ÙˆÙ„"
                              frmMsg.Show vbModal
                          End If
-                        frmMsg.fwlblMsg.Caption = "ÈÇíÏ ßÇáÇåÇí ÇäÈÇÑ ÈÑÇí Çíä ÓÇá ãÇáí ÇÖÇİå ÔæÏ."
+                        frmMsg.fwlblMsg.Caption = "Ø¨Ø§ÙŠØ¯ ÙƒØ§Ù„Ø§Ù‡Ø§ÙŠ Ø§Ù†Ø¨Ø§Ø± Ø¨Ø±Ø§ÙŠ Ø§ÙŠÙ† Ø³Ø§Ù„ Ù…Ø§Ù„ÙŠ Ø§Ø¶Ø§ÙÙ‡ Ø´ÙˆØ¯."
                         frmMsg.fwBtn(0).Visible = False
                         frmMsg.fwBtn(1).ButtonType = flwButtonOk
-                        frmMsg.fwBtn(1).Caption = "ŞÈæá"
+                        frmMsg.fwBtn(1).Caption = "Ù‚Ø¨ÙˆÙ„"
                         frmMsg.Show vbModal
                         frmInventory_level1.Show
                         Sleep 1000
@@ -1114,10 +1114,10 @@ Private Sub Command1_Click(index As Integer)
                         Sleep 3000
                         frmInventory_level1.ExitForm
                         
-                        frmMsg.fwlblMsg.Caption = " ßÇáÇåÇí ÇäÈÇÑãÑßÒí ÈÑÇí Çíä ÓÇá ãÇáí ÇÖÇİå ÔÏ." & "ÈÑÇí ÓÇíÑ ÇäÈÇÑåÇ ãÏíÑ ÓíÓÊã ÇŞÏÇã äãÇíÏ."
+                        frmMsg.fwlblMsg.Caption = " ÙƒØ§Ù„Ø§Ù‡Ø§ÙŠ Ø§Ù†Ø¨Ø§Ø±Ù…Ø±ÙƒØ²ÙŠ Ø¨Ø±Ø§ÙŠ Ø§ÙŠÙ† Ø³Ø§Ù„ Ù…Ø§Ù„ÙŠ Ø§Ø¶Ø§ÙÙ‡ Ø´Ø¯." & "Ø¨Ø±Ø§ÙŠ Ø³Ø§ÙŠØ± Ø§Ù†Ø¨Ø§Ø±Ù‡Ø§ Ù…Ø¯ÙŠØ± Ø³ÙŠØ³ØªÙ… Ø§Ù‚Ø¯Ø§Ù… Ù†Ù…Ø§ÙŠØ¯."
                         frmMsg.fwBtn(0).Visible = False
                         frmMsg.fwBtn(1).ButtonType = flwButtonOk
-                        frmMsg.fwBtn(1).Caption = "ŞÈæá"
+                        frmMsg.fwBtn(1).Caption = "Ù‚Ø¨ÙˆÙ„"
                         frmMsg.Show vbModal
                         Unload frmInput
                         ReDim Parameter(0) As Parameter
@@ -1145,7 +1145,7 @@ Private Sub Command1_Click(index As Integer)
                 MojodiControlFlag = clsStation.MojodiControlDefault
                 
                 If clsStation.SellerCaption = "" Then
-                    clsStation.SellerCaption = "İÑæÔäÏå"
+                    clsStation.SellerCaption = "ÙØ±ÙˆØ´Ù†Ø¯Ù‡"
                 End If
                 
                 ReDim Parameter(2) As Parameter
@@ -1158,8 +1158,8 @@ Private Sub Command1_Click(index As Integer)
                 
                 If CurrentDateNumber > LastDateNumber And Station_IsServer = True Then
                     frmDisMsg.Timer1.Interval = 1000
-                    frmDisMsg.lblMessage = "ÓíÓÊã ÏÑ ÍÇá ãÑÊÈ ÓÇÒí ÏÇÏå åÇ ãí ÈÇÔÏ "
-                    frmDisMsg.lblMessage = frmDisMsg.lblMessage & vbLf & "áØİÇ ãäÊÙÑ ÈãÇäíÏ "
+                    frmDisMsg.lblMessage = "Ø³ÙŠØ³ØªÙ… Ø¯Ø± Ø­Ø§Ù„ Ù…Ø±ØªØ¨ Ø³Ø§Ø²ÙŠ Ø¯Ø§Ø¯Ù‡ Ù‡Ø§ Ù…ÙŠ Ø¨Ø§Ø´Ø¯ "
+                    frmDisMsg.lblMessage = frmDisMsg.lblMessage & vbLf & "Ù„Ø·ÙØ§ Ù…Ù†ØªØ¸Ø± Ø¨Ù…Ø§Ù†ÙŠØ¯ "
                     frmDisMsg.Show
                     DoEvents
                     On Error Resume Next
@@ -1173,11 +1173,11 @@ Private Sub Command1_Click(index As Integer)
                     Unload frmCashSharzh
                 End If
                 If CurrentDateNumber > LastDateNumber And Station_IsServer = True And clsStation.AutoBackup = False Then
-                   ShowMessage "ÂíÇ ãÇíá Èå ÑİÊä äÓÎå ÔÊíÈÇä ÇÒ ÇØáÇÚÇÊ ÎæÏ åÓÊíÏ¿", True, True, "Èáí", "ÎíÑ"
+                   ShowMessage "Ø¢ÙŠØ§ Ù…Ø§ÙŠÙ„ Ø¨Ù‡ Ú¯Ø±ÙØªÙ† Ù†Ø³Ø®Ù‡ Ù¾Ø´ØªÙŠØ¨Ø§Ù† Ø§Ø² Ø§Ø·Ù„Ø§Ø¹Ø§Øª Ø®ÙˆØ¯ Ù‡Ø³ØªÙŠØ¯ØŸ", True, True, "Ø¨Ù„ÙŠ", "Ø®ÙŠØ±"
                    If mvarMsgIdx = vbYes Then
                         frmDisMsg.Timer1.Interval = 1000
-                        frmDisMsg.lblMessage = "ÓíÓÊã ÏÑ ÍÇá ÑİÊä äÓÎå ÔÊíÈÇä ÇÒ ÏÇÏå åÇ ãí ÈÇÔÏ "
-                        frmDisMsg.lblMessage = frmDisMsg.lblMessage & vbLf & "áØİÇ ãäÊÙÑ ÈãÇäíÏ "
+                        frmDisMsg.lblMessage = "Ø³ÙŠØ³ØªÙ… Ø¯Ø± Ø­Ø§Ù„ Ú¯Ø±ÙØªÙ† Ù†Ø³Ø®Ù‡ Ù¾Ø´ØªÙŠØ¨Ø§Ù† Ø§Ø² Ø¯Ø§Ø¯Ù‡ Ù‡Ø§ Ù…ÙŠ Ø¨Ø§Ø´Ø¯ "
+                        frmDisMsg.lblMessage = frmDisMsg.lblMessage & vbLf & "Ù„Ø·ÙØ§ Ù…Ù†ØªØ¸Ø± Ø¨Ù…Ø§Ù†ÙŠØ¯ "
                         frmDisMsg.Show
                         DoEvents
                         On Error Resume Next
@@ -1191,20 +1191,20 @@ Private Sub Command1_Click(index As Integer)
     ''                Dim Form As New FGArya_Samar_Accounting.FormShowHandler
     ''                Form.SetSaleSale AccountYear, CurrentBranch, mvarCurUserNo, DataBaseName, clsArya.DBLogin, clsArya.ServerName, Trim(clsArya.Company)
                     If CurrentDateNumber > LastDateNumber And Station_IsServer = True And (LCase(clsArya.ServerName) = LCase(MachineName) Or clsArya.ServerName = ".") Then
-                        ShowMessage "ÂíÇ ãÇíá Èå ÑİÊä ÒÇÑÔ ßåÇí ÏÑíÇİÊäí ÊÇ ÊÇÑíÎ İÑÏÇ åÓÊíÏ¿", True, True, "Èáí", "ÎíÑ"
+                        ShowMessage "Ø¢ÙŠØ§ Ù…Ø§ÙŠÙ„ Ø¨Ù‡ Ú¯Ø±ÙØªÙ† Ú¯Ø²Ø§Ø±Ø´ Ú†ÙƒÙ‡Ø§ÙŠ Ø¯Ø±ÙŠØ§ÙØªÙ†ÙŠ ØªØ§ ØªØ§Ø±ÙŠØ® ÙØ±Ø¯Ø§ Ù‡Ø³ØªÙŠØ¯ØŸ", True, True, "Ø¨Ù„ÙŠ", "Ø®ÙŠØ±"
                         If mvarMsgIdx = vbYes Then
                             Accounting.ChequePrintingDll
                         End If
                     End If
                     If CurrentDateNumber > LastDateNumber And Station_IsServer = True And (LCase(clsArya.ServerName) = LCase(MachineName) Or clsArya.ServerName = ".") Then
-                        ShowMessage "ÂíÇ ãÇíá Èå ÑİÊä ÒÇÑÔ ßåÇí ÑÏÇÎÊäí ÊÇ ÊÇÑíÎ İÑÏÇ åÓÊíÏ¿", True, True, "Èáí", "ÎíÑ"
+                        ShowMessage "Ø¢ÙŠØ§ Ù…Ø§ÙŠÙ„ Ø¨Ù‡ Ú¯Ø±ÙØªÙ† Ú¯Ø²Ø§Ø±Ø´ Ú†ÙƒÙ‡Ø§ÙŠ Ù¾Ø±Ø¯Ø§Ø®ØªÙ†ÙŠ ØªØ§ ØªØ§Ø±ÙŠØ® ÙØ±Ø¯Ø§ Ù‡Ø³ØªÙŠØ¯ØŸ", True, True, "Ø¨Ù„ÙŠ", "Ø®ÙŠØ±"
                         If mvarMsgIdx = vbYes Then
                             Accounting.ChequePaymentPrintingDll
                         End If
                     End If
                     Dim TafsiliFlag As Boolean
                     If mvarTafsili = 0 Then
-                        ShowMessage " ˜ÇÑÈÑ İÚáí ÈÑÇí ËÈÊ ÏÑ ÓíÓÊã ÍÓÇÈÏÇÑí ÏÇÑÇí ˜Ï ÊİÕíáí äíÓÊ . í˜ÈÇÑ ˜ÇÑÈÑ ãæÑÏ äÙÑ ÑÇ æíÑÇíÔ ˜äíÏ íÇ åãå ˜ÇÑÈÑÇä ÑÇ Èå ÓíÓÊã ÍÓÇÈÏÇÑí ÇÖÇİå ˜äíÏ ", True, False, "ŞÈæá", ""
+                        ShowMessage " Ú©Ø§Ø±Ø¨Ø± ÙØ¹Ù„ÙŠ Ø¨Ø±Ø§ÙŠ Ø«Ø¨Øª Ø¯Ø± Ø³ÙŠØ³ØªÙ… Ø­Ø³Ø§Ø¨Ø¯Ø§Ø±ÙŠ Ø¯Ø§Ø±Ø§ÙŠ Ú©Ø¯ ØªÙØµÙŠÙ„ÙŠ Ù†ÙŠØ³Øª . ÙŠÚ©Ø¨Ø§Ø± Ú©Ø§Ø±Ø¨Ø± Ù…ÙˆØ±Ø¯ Ù†Ø¸Ø± Ø±Ø§ ÙˆÙŠØ±Ø§ÙŠØ´ Ú©Ù†ÙŠØ¯ ÙŠØ§ Ù‡Ù…Ù‡ Ú©Ø§Ø±Ø¨Ø±Ø§Ù† Ø±Ø§ Ø¨Ù‡ Ø³ÙŠØ³ØªÙ… Ø­Ø³Ø§Ø¨Ø¯Ø§Ø±ÙŠ Ø§Ø¶Ø§ÙÙ‡ Ú©Ù†ÙŠØ¯ ", True, False, "Ù‚Ø¨ÙˆÙ„", ""
                         frmPer.Show
                         TafsiliFlag = True
                     End If
@@ -1280,17 +1280,17 @@ Private Sub Form_Activate()
     If Trim(clsArya.Company) = "" Then End
     If clsArya.HardLock = False Then
         If clsArya.LimitedVersion = True And HardLockFlagTrial = False Then
-'            lblAddress.Caption = "       äÑã ÇİÒÇÑÍÇÖÑ ÊÍÊ ŞæÇäíä ÔæÑÇíÚÇáí ÇäİæÑãÇÊí˜ ˜ÔæÑ ãí ÈÇÔÏ" & "Çíä äÓÎå ÇÒ ÈÑäÇãå ÈÑÇí ÇÓÊİÇÏå " & Trim(clsArya.Company) & "  Êåíå ÑÏíÏå æ ŞÇÈá ˜í æ Ê˜ËíÑ  ãí ÈÇÔÏ. "
-'            lblAddress.Caption = lblAddress.Caption & " ÇÓÊİÇÏå ÇÒ Çíä äÓÎå ÏÇÑÇí ãÍÏæÏíÊ ãí ÈÇÔÏ æ Ó ÇÒ ãÔÇåÏå ŞÇÈáíÊ åÇí æÑä åÇí ãÎÊáİ äÑã ÇİÒÇÑÈÑÇí Êåíå äÓÎå ÇÕáí ÈÇ äãÇíäÏÇä İÑæÔ ÔÑ˜Ê ÊãÇÓ ÍÇÕá İÑãÇÆíÏ"
-            strPolicy = "       äÑã ÇİÒÇÑÍÇÖÑ ÊÍÊ ŞæÇäíä ÔæÑÇíÚÇáí ÇäİæÑãÇÊí˜ ˜ÔæÑ ãí ÈÇÔÏ" & "Çíä äÓÎå ÇÒ ÈÑäÇãå ÈÑÇí ÇÓÊİÇÏå " & Trim(clsArya.Company) & "  Êåíå ÑÏíÏå æ ŞÇÈá ˜í æ Ê˜ËíÑ  ãí ÈÇÔÏ. "
-            strPolicy = strPolicy & " ÇÓÊİÇÏå ÇÒ Çíä äÓÎå ÏÇÑÇí ãÍÏæÏíÊ ãí ÈÇÔÏ æ Ó ÇÒ ãÔÇåÏå ŞÇÈáíÊ åÇí æÑä åÇí ãÎÊáİ äÑã ÇİÒÇÑÈÑÇí Êåíå äÓÎå ÇÕáí ÈÇ äãÇíäÏÇä İÑæÔ ÔÑ˜Ê ÊãÇÓ ÍÇÕá İÑãÇÆíÏ"
+'            lblAddress.Caption = "       Ù†Ø±Ù… Ø§ÙØ²Ø§Ø±Ø­Ø§Ø¶Ø± ØªØ­Øª Ù‚ÙˆØ§Ù†ÙŠÙ† Ø´ÙˆØ±Ø§ÙŠØ¹Ø§Ù„ÙŠ Ø§Ù†ÙÙˆØ±Ù…Ø§ØªÙŠÚ© Ú©Ø´ÙˆØ± Ù…ÙŠ Ø¨Ø§Ø´Ø¯" & "Ø§ÙŠÙ† Ù†Ø³Ø®Ù‡ Ø§Ø² Ø¨Ø±Ù†Ø§Ù…Ù‡ Ø¨Ø±Ø§ÙŠ Ø§Ø³ØªÙØ§Ø¯Ù‡ " & Trim(clsArya.Company) & "  ØªÙ‡ÙŠÙ‡ Ú¯Ø±Ø¯ÙŠØ¯Ù‡ Ùˆ Ù‚Ø§Ø¨Ù„ Ú©Ù¾ÙŠ Ùˆ ØªÚ©Ø«ÙŠØ±  Ù…ÙŠ Ø¨Ø§Ø´Ø¯. "
+'            lblAddress.Caption = lblAddress.Caption & " Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² Ø§ÙŠÙ† Ù†Ø³Ø®Ù‡ Ø¯Ø§Ø±Ø§ÙŠ Ù…Ø­Ø¯ÙˆØ¯ÙŠØª Ù…ÙŠ Ø¨Ø§Ø´Ø¯ Ùˆ Ù¾Ø³ Ø§Ø² Ù…Ø´Ø§Ù‡Ø¯Ù‡ Ù‚Ø§Ø¨Ù„ÙŠØª Ù‡Ø§ÙŠ ÙˆØ±Ú˜Ù† Ù‡Ø§ÙŠ Ù…Ø®ØªÙ„Ù Ù†Ø±Ù… Ø§ÙØ²Ø§Ø±Ø¨Ø±Ø§ÙŠ ØªÙ‡ÙŠÙ‡ Ù†Ø³Ø®Ù‡ Ø§ØµÙ„ÙŠ Ø¨Ø§ Ù†Ù…Ø§ÙŠÙ†Ø¯Ú¯Ø§Ù† ÙØ±ÙˆØ´ Ø´Ø±Ú©Øª ØªÙ…Ø§Ø³ Ø­Ø§ØµÙ„ ÙØ±Ù…Ø§Ø¦ÙŠØ¯"
+            strPolicy = "       Ù†Ø±Ù… Ø§ÙØ²Ø§Ø±Ø­Ø§Ø¶Ø± ØªØ­Øª Ù‚ÙˆØ§Ù†ÙŠÙ† Ø´ÙˆØ±Ø§ÙŠØ¹Ø§Ù„ÙŠ Ø§Ù†ÙÙˆØ±Ù…Ø§ØªÙŠÚ© Ú©Ø´ÙˆØ± Ù…ÙŠ Ø¨Ø§Ø´Ø¯" & "Ø§ÙŠÙ† Ù†Ø³Ø®Ù‡ Ø§Ø² Ø¨Ø±Ù†Ø§Ù…Ù‡ Ø¨Ø±Ø§ÙŠ Ø§Ø³ØªÙØ§Ø¯Ù‡ " & Trim(clsArya.Company) & "  ØªÙ‡ÙŠÙ‡ Ú¯Ø±Ø¯ÙŠØ¯Ù‡ Ùˆ Ù‚Ø§Ø¨Ù„ Ú©Ù¾ÙŠ Ùˆ ØªÚ©Ø«ÙŠØ±  Ù…ÙŠ Ø¨Ø§Ø´Ø¯. "
+            strPolicy = strPolicy & " Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø§Ø² Ø§ÙŠÙ† Ù†Ø³Ø®Ù‡ Ø¯Ø§Ø±Ø§ÙŠ Ù…Ø­Ø¯ÙˆØ¯ÙŠØª Ù…ÙŠ Ø¨Ø§Ø´Ø¯ Ùˆ Ù¾Ø³ Ø§Ø² Ù…Ø´Ø§Ù‡Ø¯Ù‡ Ù‚Ø§Ø¨Ù„ÙŠØª Ù‡Ø§ÙŠ ÙˆØ±Ú˜Ù† Ù‡Ø§ÙŠ Ù…Ø®ØªÙ„Ù Ù†Ø±Ù… Ø§ÙØ²Ø§Ø±Ø¨Ø±Ø§ÙŠ ØªÙ‡ÙŠÙ‡ Ù†Ø³Ø®Ù‡ Ø§ØµÙ„ÙŠ Ø¨Ø§ Ù†Ù…Ø§ÙŠÙ†Ø¯Ú¯Ø§Ù† ÙØ±ÙˆØ´ Ø´Ø±Ú©Øª ØªÙ…Ø§Ø³ Ø­Ø§ØµÙ„ ÙØ±Ù…Ø§Ø¦ÙŠØ¯"
         ElseIf clsArya.LimitedVersion = True And HardLockFlagTrial = True Then
-            strPolicy = "       äÑã ÇİÒÇÑÍÇÖÑ ÊÍÊ ŞæÇäíä ÔæÑÇíÚÇáí ÇäİæÑãÇÊí˜ ˜ÔæÑ ãí ÈÇÔÏ" & "Çíä äÓÎå ÇÒ ÈÑäÇãå ÈÑÇí ÇÓÊİÇÏå ÏÑ " & Trim(clsArya.Company) & " æÇŞÚ ÏÑ " & Trim(clsArya.CustomerAddres) & "  Êåíå ÑÏíÏå æ ŞÇÈá ˜í æ Ê˜ËíÑ  ãí ÈÇÔÏ. "
+            strPolicy = "       Ù†Ø±Ù… Ø§ÙØ²Ø§Ø±Ø­Ø§Ø¶Ø± ØªØ­Øª Ù‚ÙˆØ§Ù†ÙŠÙ† Ø´ÙˆØ±Ø§ÙŠØ¹Ø§Ù„ÙŠ Ø§Ù†ÙÙˆØ±Ù…Ø§ØªÙŠÚ© Ú©Ø´ÙˆØ± Ù…ÙŠ Ø¨Ø§Ø´Ø¯" & "Ø§ÙŠÙ† Ù†Ø³Ø®Ù‡ Ø§Ø² Ø¨Ø±Ù†Ø§Ù…Ù‡ Ø¨Ø±Ø§ÙŠ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø¯Ø± " & Trim(clsArya.Company) & " ÙˆØ§Ù‚Ø¹ Ø¯Ø± " & Trim(clsArya.CustomerAddres) & "  ØªÙ‡ÙŠÙ‡ Ú¯Ø±Ø¯ÙŠØ¯Ù‡ Ùˆ Ù‚Ø§Ø¨Ù„ Ú©Ù¾ÙŠ Ùˆ ØªÚ©Ø«ÙŠØ±  Ù…ÙŠ Ø¨Ø§Ø´Ø¯. "
         Else
-            strPolicy = "       äÑã ÇİÒÇÑÍÇÖÑ ÊÍÊ ŞæÇäíä ÔæÑÇíÚÇáí ÇäİæÑãÇÊí˜ ˜ÔæÑ ãí ÈÇÔÏ" & "Çíä äÓÎå ÇÒ ÈÑäÇãå ÈÑÇí ÇÓÊİÇÏå ÏÑ " & Trim(clsArya.Company) & " æÇŞÚ ÏÑ " & Trim(clsArya.CustomerAddres) & "  Êåíå ÑÏíÏå  " & "æ åÑæäå ˜í ÈÑÏÇÑí æÇÓÊİÇÏå ÛíÑ ŞÇäæäí ÇÒ Âä  ŞÇÈá íÑÏ ãí ÈÇÔÏ "
+            strPolicy = "       Ù†Ø±Ù… Ø§ÙØ²Ø§Ø±Ø­Ø§Ø¶Ø± ØªØ­Øª Ù‚ÙˆØ§Ù†ÙŠÙ† Ø´ÙˆØ±Ø§ÙŠØ¹Ø§Ù„ÙŠ Ø§Ù†ÙÙˆØ±Ù…Ø§ØªÙŠÚ© Ú©Ø´ÙˆØ± Ù…ÙŠ Ø¨Ø§Ø´Ø¯" & "Ø§ÙŠÙ† Ù†Ø³Ø®Ù‡ Ø§Ø² Ø¨Ø±Ù†Ø§Ù…Ù‡ Ø¨Ø±Ø§ÙŠ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø¯Ø± " & Trim(clsArya.Company) & " ÙˆØ§Ù‚Ø¹ Ø¯Ø± " & Trim(clsArya.CustomerAddres) & "  ØªÙ‡ÙŠÙ‡ Ú¯Ø±Ø¯ÙŠØ¯Ù‡  " & "Ùˆ Ù‡Ø±Ú¯ÙˆÙ†Ù‡ Ú©Ù¾ÙŠ Ø¨Ø±Ø¯Ø§Ø±ÙŠ ÙˆØ§Ø³ØªÙØ§Ø¯Ù‡ ØºÙŠØ± Ù‚Ø§Ù†ÙˆÙ†ÙŠ Ø§Ø² Ø¢Ù†  Ù‚Ø§Ø¨Ù„ Ù¾ÙŠÚ¯Ø±Ø¯ Ù…ÙŠ Ø¨Ø§Ø´Ø¯ "
         End If
     Else
-        strPolicy = "       äÑã ÇİÒÇÑÍÇÖÑ ÊÍÊ ŞæÇäíä ÔæÑÇíÚÇáí ÇäİæÑãÇÊí˜ ˜ÔæÑ ãí ÈÇÔÏ" & "Çíä äÓÎå ÇÒ ÈÑäÇãå ÈÑÇí ÇÓÊİÇÏå ÏÑ " & Trim(clsArya.Company) & " æÇŞÚ ÏÑ " & Trim(clsArya.CustomerAddres) & "  Êåíå ÑÏíÏå  " & "æ åÑæäå ˜í ÈÑÏÇÑí æÇÓÊİÇÏå ÛíÑ ŞÇäæäí ÇÒ Âä  ŞÇÈá íÑÏ ãí ÈÇÔÏ "
+        strPolicy = "       Ù†Ø±Ù… Ø§ÙØ²Ø§Ø±Ø­Ø§Ø¶Ø± ØªØ­Øª Ù‚ÙˆØ§Ù†ÙŠÙ† Ø´ÙˆØ±Ø§ÙŠØ¹Ø§Ù„ÙŠ Ø§Ù†ÙÙˆØ±Ù…Ø§ØªÙŠÚ© Ú©Ø´ÙˆØ± Ù…ÙŠ Ø¨Ø§Ø´Ø¯" & "Ø§ÙŠÙ† Ù†Ø³Ø®Ù‡ Ø§Ø² Ø¨Ø±Ù†Ø§Ù…Ù‡ Ø¨Ø±Ø§ÙŠ Ø§Ø³ØªÙØ§Ø¯Ù‡ Ø¯Ø± " & Trim(clsArya.Company) & " ÙˆØ§Ù‚Ø¹ Ø¯Ø± " & Trim(clsArya.CustomerAddres) & "  ØªÙ‡ÙŠÙ‡ Ú¯Ø±Ø¯ÙŠØ¯Ù‡  " & "Ùˆ Ù‡Ø±Ú¯ÙˆÙ†Ù‡ Ú©Ù¾ÙŠ Ø¨Ø±Ø¯Ø§Ø±ÙŠ ÙˆØ§Ø³ØªÙØ§Ø¯Ù‡ ØºÙŠØ± Ù‚Ø§Ù†ÙˆÙ†ÙŠ Ø§Ø² Ø¢Ù†  Ù‚Ø§Ø¨Ù„ Ù¾ÙŠÚ¯Ø±Ø¯ Ù…ÙŠ Ø¨Ø§Ø´Ø¯ "
     End If
     
     lblAddress = strPolicy
@@ -1298,15 +1298,15 @@ Private Sub Form_Activate()
     lblSpec.Caption = Format(clsArya.CustomerId, "00000") & "-" & strCategory & "-" & strDelegate
     Select Case intVersion
         Case 3
-            LblVersion.Caption = "ãíäí"
+            LblVersion.Caption = "Ù…ÙŠÙ†ÙŠ"
         Case 0
-            LblVersion.Caption = "ãÊæÓØ"
+            LblVersion.Caption = "Ù…ØªÙˆØ³Ø·"
         Case 1
-            LblVersion.Caption = "íÔÑİÊå"
+            LblVersion.Caption = "Ù¾ÙŠØ´Ø±ÙØªÙ‡"
         Case 2
-            LblVersion.Caption = "æíå"
+            LblVersion.Caption = "ÙˆÙŠÚ˜Ù‡"
         Case 4
-            LblVersion.Caption = "ÇáãÇÓ"
+            LblVersion.Caption = "Ø§Ù„Ù…Ø§Ø³"
     End Select
     
     LblSerialNo.Caption = clsArya.HardLockSerialNo
@@ -1351,15 +1351,15 @@ End Sub
 Private Sub FillVersion()
     Dim i As Integer
     CmbVersion.Clear
-    CmbVersion.AddItem "ÓÇÏå"
+    CmbVersion.AddItem "Ø³Ø§Ø¯Ù‡"
     CmbVersion.ItemData(0) = EnumVersion.Min
-    CmbVersion.AddItem "ãÊæÓØ"
+    CmbVersion.AddItem "Ù…ØªÙˆØ³Ø·"
     CmbVersion.ItemData(1) = EnumVersion.Normal
-    CmbVersion.AddItem "íÔÑİÊå"
+    CmbVersion.AddItem "Ù¾ÙŠØ´Ø±ÙØªÙ‡"
     CmbVersion.ItemData(2) = EnumVersion.Silver
-    CmbVersion.AddItem "æíå"
+    CmbVersion.AddItem "ÙˆÙŠÚ˜Ù‡"
     CmbVersion.ItemData(3) = EnumVersion.gold
-    CmbVersion.AddItem "ÇáãÇÓ"
+    CmbVersion.AddItem "Ø§Ù„Ù…Ø§Ø³"
     CmbVersion.ItemData(4) = EnumVersion.Diamond
      
     If clsArya.LimitedVersion = True Or DebugMode = True Then
@@ -1425,7 +1425,7 @@ Dim ii As Integer
 
         
 ''############
-''   ÇÈÊÏÇ ÂÑíÇ ÓÊíä ÏÑ ÏÑÇíæ Óí ˜ ãí ÔæÏæ ÇÑ íÏÇ äÔÏ ÏÑ ãÓíÑ ÌÇÑí ÏäÈÇá ãí ÑÏÏ
+''   Ø§Ø¨ØªØ¯Ø§ Ø¢Ø±ÙŠØ§ Ø³ØªÙŠÙ†Ú¯ Ø¯Ø± Ø¯Ø±Ø§ÙŠÙˆ Ø³ÙŠ Ú†Ú© Ù…ÙŠ Ø´ÙˆØ¯Ùˆ Ø§Ú¯Ø± Ù¾ÙŠØ¯Ø§ Ù†Ø´Ø¯ Ø¯Ø± Ù…Ø³ÙŠØ± Ø¬Ø§Ø±ÙŠ Ø¯Ù†Ø¨Ø§Ù„ Ù…ÙŠ Ú¯Ø±Ø¯Ø¯
 '    AryaSettingFile = "C:\Aryasetting.txt"
 '    IsFileExist = filetemp.FileExists(AryaSettingFile)
 '
@@ -1434,12 +1434,12 @@ Dim ii As Integer
 '        IsFileExist = filetemp.FileExists(AryaSettingFile)
 '        If IsFileExist = False Then
 '            setDefaultAryaSettingFile
-'            If clsArya.LimitedVersion = False Then MsgBox "Arya Setting File " & vbCrLf & "ÏÑ ãÓíÑ  " & App.Path & "\Aryasetting.txt" & "ÇíÌÇÏ ÑÏíÏ"
+'            If clsArya.LimitedVersion = False Then MsgBox "Arya Setting File " & vbCrLf & "Ø¯Ø± Ù…Ø³ÙŠØ±  " & App.Path & "\Aryasetting.txt" & "Ø§ÙŠØ¬Ø§Ø¯ Ú¯Ø±Ø¯ÙŠØ¯"
 '        End If
 '    End If
 
-'############ ÈÑÇí Çíä˜å Çã˜Çä ÇÌÑÇí Ïæ ÈÑäÇãå åã ÒãÇä ÏÑ ÓíÓÊã æÌæÏ ÏÇÔÊå ÈÇÔÏ
-'   ÇÈÊÏÇ ÂÑíÇ ÓÊíä ÏÑ ãÓíÑ ÌÇÑí ˜ ãí ÔæÏæ ÇÑ íÏÇ äÔÏ ÏÑ ÏÑÇíæ Óí ÏäÈÇá ãí ÑÏÏ
+'############ Ø¨Ø±Ø§ÙŠ Ø§ÙŠÙ†Ú©Ù‡ Ø§Ù…Ú©Ø§Ù† Ø§Ø¬Ø±Ø§ÙŠ Ø¯Ùˆ Ø¨Ø±Ù†Ø§Ù…Ù‡ Ù‡Ù… Ø²Ù…Ø§Ù† Ø¯Ø± Ø³ÙŠØ³ØªÙ… ÙˆØ¬ÙˆØ¯ Ø¯Ø§Ø´ØªÙ‡ Ø¨Ø§Ø´Ø¯
+'   Ø§Ø¨ØªØ¯Ø§ Ø¢Ø±ÙŠØ§ Ø³ØªÙŠÙ†Ú¯ Ø¯Ø± Ù…Ø³ÙŠØ± Ø¬Ø§Ø±ÙŠ Ú†Ú© Ù…ÙŠ Ø´ÙˆØ¯Ùˆ Ø§Ú¯Ø± Ù¾ÙŠØ¯Ø§ Ù†Ø´Ø¯ Ø¯Ø± Ø¯Ø±Ø§ÙŠÙˆ Ø³ÙŠ Ø¯Ù†Ø¨Ø§Ù„ Ù…ÙŠ Ú¯Ø±Ø¯Ø¯
     AryaSettingFile = App.Path & "\Aryasetting.txt"
     IsFileExist = filetemp.FileExists(AryaSettingFile)
     
@@ -1448,7 +1448,7 @@ Dim ii As Integer
         IsFileExist = filetemp.FileExists(AryaSettingFile)
         If IsFileExist = False Then
             setDefaultAryaSettingFile
-            If clsArya.LimitedVersion = False Then MsgBox "Arya Setting File " & vbCrLf & "ÏÑ ãÓíÑ  " & "C:\Aryasetting.txt" & "ÇíÌÇÏ ÑÏíÏ"
+            If clsArya.LimitedVersion = False Then MsgBox "Arya Setting File " & vbCrLf & "Ø¯Ø± Ù…Ø³ÙŠØ±  " & "C:\Aryasetting.txt" & "Ø§ÙŠØ¬Ø§Ø¯ Ú¯Ø±Ø¯ÙŠØ¯"
         End If
     End If
 '############
@@ -1457,10 +1457,10 @@ Dim ii As Integer
         AryaSettingFile = App.Path & "\Aryasetting.txt"
         IsFileExist = filetemp.FileExists(AryaSettingFile)
         If IsFileExist = False Then
-            MsgBox "Arya Setting File " & vbCrLf & "ÏÑ ãÓíÑ  " & App.Path & "\Aryasetting.txt" & "æÌæÏ äÏÇÑÏ æ ÓíÓÊã ŞÇÏÑ Èå ÇÏÇãå äíÓÊ"
+            MsgBox "Arya Setting File " & vbCrLf & "Ø¯Ø± Ù…Ø³ÙŠØ±  " & App.Path & "\Aryasetting.txt" & "ÙˆØ¬ÙˆØ¯ Ù†Ø¯Ø§Ø±Ø¯ Ùˆ Ø³ÙŠØ³ØªÙ… Ù‚Ø§Ø¯Ø± Ø¨Ù‡ Ø§Ø¯Ø§Ù…Ù‡ Ù†ÙŠØ³Øª"
             End
         Else
-            MsgBox "Arya Setting File " & vbCrLf & "ÏÑ ãÓíÑ  " & App.Path & "\Aryasetting.txt" & "ÔäÇÓÇíí ÔÏ"
+            MsgBox "Arya Setting File " & vbCrLf & "Ø¯Ø± Ù…Ø³ÙŠØ±  " & App.Path & "\Aryasetting.txt" & "Ø´Ù†Ø§Ø³Ø§ÙŠÙŠ Ø´Ø¯"
             clsArya.Class_Initialize
             
         End If
@@ -1504,8 +1504,8 @@ Dim ii As Integer
 '        MsgBox "Accounting file didn't exist" & vbCrLf & "Default accounting setting file created"
 '    End If
     
-'    If Trim(clsArya.Company) = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" Then MsgBox "İÇíá ÇÌÑÇÆí ÎÇã ÇÓÊ": End
-    If Trim(clsArya.HardLockSerialNo) = "xxxxxxxxxxxxxxxxxx" Then MsgBox "İÇíá ÇÌÑÇÆí ÎÇã ÇÓÊ": End
+'    If Trim(clsArya.Company) = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" Then MsgBox "ÙØ§ÙŠÙ„ Ø§Ø¬Ø±Ø§Ø¦ÙŠ Ø®Ø§Ù… Ø§Ø³Øª": End
+    If Trim(clsArya.HardLockSerialNo) = "xxxxxxxxxxxxxxxxxx" Then MsgBox "ÙØ§ÙŠÙ„ Ø§Ø¬Ø±Ø§Ø¦ÙŠ Ø®Ø§Ù… Ø§Ø³Øª": End
     
 '    If filetemp.FileExists("L:\Data_Sql\Total_Cool_Data.MDF") = False Then
     If clsArya.ExternalDataBase = True Then
@@ -1514,7 +1514,7 @@ Dim ii As Integer
           setAryaSettingFile
        End If
        If filetemp.FileExists(clsArya.ExternalDbPath) = False Then
-           MsgBox "  İÇíá ÏÇÏå åÇ íÏÇ äÔÏ "
+           MsgBox "  ÙØ§ÙŠÙ„ Ø¯Ø§Ø¯Ù‡ Ù‡Ø§ Ù¾ÙŠØ¯Ø§ Ù†Ø´Ø¯ "
            End
        Else
             If clsArya.ExternalDataName = "" Then
@@ -1619,7 +1619,7 @@ Dim ii As Integer
     Set TinyEvent = Tiny1       ' necwssary for fire event
     
     If clsArya.LimitedVersion = True Then
-''''áÇÒã äíÓÊ Şİá ÑÇ ˜ ˜äÏ
+''''Ù„Ø§Ø²Ù… Ù†ÙŠØ³Øª Ù‚ÙÙ„ Ø±Ø§ Ú†Ú© Ú©Ù†Ø¯
         HardLockFlagTrial = False
         Station_IsAccounting = True
 '        Call HardLockCheckTrial
@@ -1635,8 +1635,8 @@ Dim ii As Integer
 '            Next i
 '            SetTooltipText
 '        Else
-            If Trim(clsArya.Company) = "" Then clsArya.Company = "ÂÑíÇ "
-            If Trim(clsArya.CustomerAddres) = "" Then clsArya.CustomerAddres = "ÊåÑÇä"
+            If Trim(clsArya.Company) = "" Then clsArya.Company = "Ø¢Ø±ÙŠØ§ "
+            If Trim(clsArya.CustomerAddres) = "" Then clsArya.CustomerAddres = "ØªÙ‡Ø±Ø§Ù†"
             SetTooltipText_Demo
             cmbDataBase.Enabled = False
             LblLimited.Visible = True
@@ -1652,7 +1652,7 @@ Dim ii As Integer
     End If
    
     If Trim(clsArya.Company) = "" Then
-        frmInput.fwlblInput.Caption = "áØİÇ äÇã ÎæÏ ÑÇ æÇÑÏ äãÇííÏ "
+        frmInput.fwlblInput.Caption = "Ù„Ø·ÙØ§ Ù†Ø§Ù… Ø®ÙˆØ¯ Ø±Ø§ ÙˆØ§Ø±Ø¯ Ù†Ù…Ø§ÙŠÙŠØ¯ "
         frmInput.btnCancel.Visible = False
         frmInput.Show vbModal
         If Trim(mvarInput) <> "" Then
@@ -1666,7 +1666,7 @@ Dim ii As Integer
     End If
     
     If Trim(clsArya.CustomerAddres) = "" Then
-        frmInput.fwlblInput.Caption = "áØİÇ ÂÏÑÓ ÎæÏ ÑÇ æÇÑÏ äãÇííÏ "
+        frmInput.fwlblInput.Caption = "Ù„Ø·ÙØ§ Ø¢Ø¯Ø±Ø³ Ø®ÙˆØ¯ Ø±Ø§ ÙˆØ§Ø±Ø¯ Ù†Ù…Ø§ÙŠÙŠØ¯ "
         frmInput.btnCancel.Visible = False
         frmInput.Show vbModal
     
