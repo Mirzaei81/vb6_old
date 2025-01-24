@@ -1,0 +1,12 @@
+Invoice_BackColorForm =13214366
+Invoice_BackColorBtn =12632256
+Invoice_BackColorFlexGrid =16761024
+Purchase_BackColorForm = 16761024
+Purchase_BackColorBtn = 11829623
+Purchase_BackColorFlexGrid = 16744576
+Invoice_FontMenuName =B Homa
+Invoice_FontMenuSize =10
+Invoice_FontMenuBold =True
+Invoice_FontFlexGridName =Nazanin
+Invoice_FontFlexGridSize =12
+Invoice_FontFlexGridBold =True

@@ -1,0 +1,5 @@
+PerssonelAtf =2
+CustomerAtf =3
+SupplierAtf =3
+ConsumerCompanyAtf =5
+SupplierCompanyAtf =5

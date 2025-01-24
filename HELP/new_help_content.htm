@@ -1,0 +1,239 @@
+﻿<!DOCTYPE HTML>
+<html dir="RTL"><head>
+   <title>&nbsp;</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+   <!-- This line includes the general project style sheet (not required) -->
+   <link type="text/css" href="default.css" rel="stylesheet" />
+
+   <!-- This block defines the styles of the TOC headings, change them as needed -->
+   <style type="text/css">
+       body { background:#FFF; }
+       .navbar   { font-size: 120%; }
+
+       .heading1 { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; color: #000000; text-decoration: none; }
+       .heading2 { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; color: #000000; text-decoration: none; }
+       .heading3 { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; color: #000000; text-decoration: none; }
+       .heading4 { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; color: #000000; text-decoration: none; }
+       .heading5 { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; color: #000000; text-decoration: none; }
+       .heading6 { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; color: #000000; text-decoration: none; }
+
+       .hilight1 { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; color: #FFFFFF; background: #002682; text-decoration: none; }
+       .hilight2 { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; color: #FFFFFF; background: #002682; text-decoration: none; }
+       .hilight3 { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; color: #FFFFFF; background: #002682; text-decoration: none; }
+       .hilight4 { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; color: #FFFFFF; background: #002682; text-decoration: none; }
+       .hilight5 { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; color: #FFFFFF; background: #002682; text-decoration: none; }
+       .hilight6 { font-family: Arial,Helvetica; font-weight: normal; font-size: 10pt; color: #FFFFFF; background: #002682; text-decoration: none; }
+
+       /* TOC LIST CSS */
+       #toc    { padding: 0; margin: 0; }
+       #toc li { margin-top: 2px; }
+       #toc ul { padding-left:0; padding-right:0 }
+       /* TOC LIST CSS */
+   </style>
+   <script type="text/javascript" src="jquery.js"></script>
+   <script type="text/javascript" src="helpman_settings.js"></script>
+   <script type="text/javascript">
+     var parentScope = (parent.hmNavigationFrame);
+     if (!parentScope) {
+		      var s = document.createElement("script");
+		      s.setAttribute("type","text/javascript");
+		      s.setAttribute("src", "helpman_navigation.js");
+		      document.getElementsByTagName("head")[0].appendChild(s);
+	    }
+     else {
+       if (initialtocstate != "expandall") parent.hmAddCss(document, "#toc li ul { display: none }");
+     }
+     function loadicons() { var icons = new Array(); for (i=0; i<arguments.length; i++) { icons[i] = new Image(); icons[i].src = arguments[i]; } }
+     function loadtoc() { if (parentScope) parent.loadstate(document.getElementById("toc")); else loadstate(document.getElementById("toc")); }
+     function savetoc() { if (parentScope) parent.savestate(document.getElementById("toc")); else savestate(document.getElementById("toc")); }
+     function clicked(node, event) { deselect(); if (parentScope) parent.hmNodeClicked(node, event); else hmNodeClicked(node, event); }
+     function dblclicked(node) { if (parentScope) parent.hmNodeDblclicked(node); else hmNodeDblclicked(node); }
+     function deselect() { if (window.getSelection) window.getSelection().removeAllRanges(); else if (document.selection) document.selection.empty(); }
+     $(document).ready(function(){
+       loadtoc();
+       $(window).onunload = savetoc;
+     });
+   </script>
+</head>
+<body>
+<p class="navbar"><b>Contents</b>
+ | <a href="new_help_kwindex.htm">Index</a>
+ | <a href="new_help_ftsearch.htm">Search</a>
+</p>
+<hr/>
+
+
+  <!-- Place holder for the TOC - this variable is REQUIRED! -->
+  <ul id="toc" style="list-style-type:none;display:block;padding-right:0">
+<li class="heading1" id="i1" data-bg="cicon3.gif;cicon4.gif" style="background:url(cicon4.gif) top right no-repeat;cursor:pointer;padding-right:20px" onclick="return clicked(this,event)"><a class="heading1" id="a1" href="seles.htm" target="hmcontent"><span class="heading1" id="s1" ondblclick="return dblclicked(this)">فروش ، خرید ، انبار</span></a>
+<ul id="ul1" style="list-style-type:none">
+<li class="heading2" id="i1.1" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a1.1" href="invoice.htm" target="hmcontent"><span class="heading2" id="s1.1">فاکتور فروش</span></a>
+</li>
+<li class="heading2" id="i1.2" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a1.2" href="purchase.htm" target="hmcontent"><span class="heading2" id="s1.2">فاکتور خرید</span></a>
+</li>
+<li class="heading2" id="i1.3" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a1.3" href="usepercent.htm" target="hmcontent"><span class="heading2" id="s1.3">ضریب مصرف</span></a>
+</li>
+<li class="heading2" id="i1.4" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a1.4" href="mojodicontrol_1.htm" target="hmcontent"><span class="heading2" id="s1.4">کنترل کالای خریدنی و فروختنی</span></a>
+</li>
+<li class="heading2" id="i1.5" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a1.5" href="mojodicontrol_2.htm" target="hmcontent"><span class="heading2" id="s1.5">کنترل موجودی مواد اولیه</span></a>
+</li>
+<li class="heading2" id="i1.6" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a1.6" href="mojodicontrol_3.htm" target="hmcontent"><span class="heading2" id="s1.6">کنترل مانده کالاهای واسطه</span></a>
+</li>
+<li class="heading2" id="i1.7" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a1.7" href="mojodicontrol_4.htm" target="hmcontent"><span class="heading2" id="s1.7">کنترل کالاهای فروختنی</span></a>
+</li>
+<li class="heading2" id="i1.8" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a1.8" href="goodturnover.htm" target="hmcontent"><span class="heading2" id="s1.8">گردش کالا در انبار</span></a>
+</li>
+<li class="heading2" id="i1.9" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a1.9" href="inventory.htm" target="hmcontent"><span class="heading2" id="s1.9">تعریف انبار</span></a>
+</li>
+<li class="heading2" id="i1.10" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a1.10" href="inventory_level1.htm" target="hmcontent"><span class="heading2" id="s1.10">اختصاص گروه ها به انبار</span></a>
+</li>
+<li class="heading2" id="i1.11" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a1.11" href="station_inventory.htm" target="hmcontent"><span class="heading2" id="s1.11">اختصاص ایستگاه به انبار</span></a>
+</li>
+<li class="heading2" id="i1.12" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a1.12" href="managestore.htm" target="hmcontent"><span class="heading2" id="s1.12">انبارگردانی</span></a>
+</li>
+<li class="heading2" id="i1.13" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a1.13" href="cyclestock.htm" target="hmcontent"><span class="heading2" id="s1.13">انبارگردانی دوره ای</span></a>
+</li>
+<li class="heading2" id="i1.14" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a1.14" href="custgoodturnover.htm" target="hmcontent"><span class="heading2" id="s1.14">گردش کالای مشتریان</span></a>
+</li>
+</ul>
+</li>
+<li class="heading1" id="i2" data-bg="cicon3.gif;cicon4.gif" style="background:url(cicon4.gif) top right no-repeat;cursor:pointer;padding-right:20px" onclick="return clicked(this,event)"><a class="heading1" id="a2" href="%CD%D3%C7%C8%E5%C7.htm" target="hmcontent"><span class="heading1" id="s2" ondblclick="return dblclicked(this)">گردش حسابها</span></a>
+<ul id="ul2" style="list-style-type:none">
+<li class="heading2" id="i2.1" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a2.1" href="creditcustomer.htm" target="hmcontent"><span class="heading2" id="s2.1">صورتحساب مشتریان اعتباری</span></a>
+</li>
+<li class="heading2" id="i2.2" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a2.2" href="creditcustomeraccount.htm" target="hmcontent"><span class="heading2" id="s2.2">صورتحساب کلیه مشتریان</span></a>
+</li>
+<li class="heading2" id="i2.3" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a2.3" href="garson.htm" target="hmcontent"><span class="heading2" id="s2.3">صورتحساب گارسون</span></a>
+</li>
+<li class="heading2" id="i2.4" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a2.4" href="paykpayment.htm" target="hmcontent"><span class="heading2" id="s2.4">صورتحساب پیک</span></a>
+</li>
+<li class="heading2" id="i2.5" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a2.5" href="creditsupplier.htm" target="hmcontent"><span class="heading2" id="s2.5">گردش حساب تامین کنندگان</span></a>
+</li>
+</ul>
+</li>
+<li class="heading1" id="i3" style="background:url(cicon4.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading1" id="a3" href="reportsitem.htm" target="hmcontent"><span class="heading1" id="s3">گزارشات</span></a>
+</li>
+<li class="heading1" id="i4" data-bg="cicon3.gif;cicon4.gif" style="background:url(cicon4.gif) top right no-repeat;cursor:pointer;padding-right:20px" onclick="return clicked(this,event)"><a class="heading1" id="a4" href="__7.htm" target="hmcontent"><span class="heading1" id="s4" ondblclick="return dblclicked(this)">اشخاص و دسترسی</span></a>
+<ul id="ul4" style="list-style-type:none">
+<li class="heading2" id="i4.1" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a4.1" href="per.htm" target="hmcontent"><span class="heading2" id="s4.1">تعریف پرسنل</span></a>
+</li>
+<li class="heading2" id="i4.2" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a4.2" href="accesslevel.htm" target="hmcontent"><span class="heading2" id="s4.2">تعیین سطح دسترسی</span></a>
+</li>
+<li class="heading2" id="i4.3" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a4.3" href="cust.htm" target="hmcontent"><span class="heading2" id="s4.3">تعریف مشترک</span></a>
+</li>
+<li class="heading2" id="i4.4" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a4.4" href="supplier.htm" target="hmcontent"><span class="heading2" id="s4.4">تعریف تامین کنندگان</span></a>
+</li>
+</ul>
+</li>
+<li class="heading1" id="i5" data-bg="cicon3.gif;cicon4.gif" style="background:url(cicon4.gif) top right no-repeat;cursor:pointer;padding-right:20px" onclick="return clicked(this,event)"><a class="heading1" id="a5" href="topic10.htm" target="hmcontent"><span class="heading1" id="s5" ondblclick="return dblclicked(this)">تعاریف</span></a>
+<ul id="ul5" style="list-style-type:none">
+<li class="heading2" id="i5.1" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a5.1" href="good.htm" target="hmcontent"><span class="heading2" id="s5.1">تعریف کالا</span></a>
+</li>
+<li class="heading2" id="i5.2" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a5.2" href="kb.htm" target="hmcontent"><span class="heading2" id="s5.2">اختصاص کالا به کیبورد</span></a>
+</li>
+<li class="heading2" id="i5.3" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a5.3" href="menu.htm" target="hmcontent"><span class="heading2" id="s5.3">اختصاص کالا به منو</span></a>
+</li>
+<li class="heading2" id="i5.4" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a5.4" href="table.htm" target="hmcontent"><span class="heading2" id="s5.4">تعریف میز</span></a>
+</li>
+<li class="heading2" id="i5.5" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a5.5" href="goodprintformats.htm" target="hmcontent"><span class="heading2" id="s5.5">کالا در چاپ</span></a>
+</li>
+<li class="heading2" id="i5.6" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a5.6" href="gooddifferences.htm" target="hmcontent"><span class="heading2" id="s5.6">تغییرات کالاها</span></a>
+</li>
+<li class="heading2" id="i5.7" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a5.7" href="partition.htm" target="hmcontent"><span class="heading2" id="s5.7">تعریف بخش</span></a>
+</li>
+<li class="heading2" id="i5.8" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a5.8" href="pocketpcgroupandstations.htm" target="hmcontent"><span class="heading2" id="s5.8">گروه کالاها در Pocket PC</span></a>
+</li>
+<li class="heading2" id="i5.9" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a5.9" href="pocketpcgroupgood.htm" target="hmcontent"><span class="heading2" id="s5.9">تعریف کالا در Pocket PC</span></a>
+</li>
+<li class="heading2" id="i5.10" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a5.10" href="goodinkitchen.htm" target="hmcontent"><span class="heading2" id="s5.10">نمایش کالاها در آشپزخانه</span></a>
+</li>
+<li class="heading2" id="i5.11" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a5.11" href="gooddiscount.htm" target="hmcontent"><span class="heading2" id="s5.11">تخفیف مالیات عوراض کالا</span></a>
+</li>
+<li class="heading2" id="i5.12" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a5.12" href="credit.htm" target="hmcontent"><span class="heading2" id="s5.12">فرم تعریف بن</span></a>
+</li>
+<li class="heading2" id="i5.13" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a5.13" href="distance.htm" target="hmcontent"><span class="heading2" id="s5.13">فرم تعریف محدوده</span></a>
+</li>
+<li class="heading2" id="i5.14" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a5.14" href="phonebook.htm" target="hmcontent"><span class="heading2" id="s5.14">فرم دفترچه تلفن</span></a>
+</li>
+<li class="heading2" id="i5.15" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a5.15" href="autodiscount.htm" target="hmcontent"><span class="heading2" id="s5.15">تخفیف اتوماتیک</span></a>
+</li>
+<li class="heading2" id="i5.16" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a5.16" href="manageset.htm" target="hmcontent"><span class="heading2" id="s5.16">تعاریف پایه</span></a>
+</li>
+<li class="heading2" id="i5.17" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a5.17" href="goodpicture.htm" target="hmcontent"><span class="heading2" id="s5.17">اختصاص تصویر به کالا</span></a>
+</li>
+</ul>
+</li>
+<li class="heading1" id="i6" data-bg="cicon3.gif;cicon4.gif" style="background:url(cicon4.gif) top right no-repeat;cursor:pointer;padding-right:20px" onclick="return clicked(this,event)"><a class="heading1" id="a6" href="topic11.htm" target="hmcontent"><span class="heading1" id="s6" ondblclick="return dblclicked(this)">نمایش</span></a>
+<ul id="ul6" style="list-style-type:none">
+<li class="heading2" id="i6.1" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a6.1" href="facedit.htm" target="hmcontent"><span class="heading2" id="s6.1">نمایش فاکتورهای اصلاحی</span></a>
+</li>
+<li class="heading2" id="i6.2" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a6.2" href="facrecursive.htm" target="hmcontent"><span class="heading2" id="s6.2">نمایش فاکتورهای مرجوعی</span></a>
+</li>
+<li class="heading2" id="i6.3" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a6.3" href="history.htm" target="hmcontent"><span class="heading2" id="s6.3">سوابق فاکتور</span></a>
+</li>
+<li class="heading2" id="i6.4" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a6.4" href="userhistory.htm" target="hmcontent"><span class="heading2" id="s6.4">سوابق کاربر</span></a>
+</li>
+</ul>
+</li>
+<li class="heading1" id="i7" data-bg="cicon3.gif;cicon4.gif" style="background:url(cicon4.gif) top right no-repeat;cursor:pointer;padding-right:20px" onclick="return clicked(this,event)"><a class="heading1" id="a7" href="topic12.htm" target="hmcontent"><span class="heading1" id="s7" ondblclick="return dblclicked(this)">حسابداری فروش</span></a>
+<ul id="ul7" style="list-style-type:none">
+<li class="heading2" id="i7.1" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a7.1" href="createsanad.htm" target="hmcontent"><span class="heading2" id="s7.1">تولید سند حسابداری</span></a>
+</li>
+<li class="heading2" id="i7.2" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a7.2" href="payment.htm" target="hmcontent"><span class="heading2" id="s7.2">پرداخت از صندق</span></a>
+</li>
+<li class="heading2" id="i7.3" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a7.3" href="recieved.htm" target="hmcontent"><span class="heading2" id="s7.3">دریافت به صندق</span></a>
+</li>
+<li class="heading2" id="i7.4" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a7.4" href="acccoding.htm" target="hmcontent"><span class="heading2" id="s7.4">فرم ارتباط با کدهای حسابداری</span></a>
+</li>
+<li class="heading2" id="i7.5" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a7.5" href="cashclose.htm" target="hmcontent"><span class="heading2" id="s7.5">فرم بستن صندق</span></a>
+</li>
+<li class="heading2" id="i7.6" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a7.6" href="bank.htm" target="hmcontent"><span class="heading2" id="s7.6">فرم تعریف بانک</span></a>
+</li>
+<li class="heading2" id="i7.7" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a7.7" href="salmali.htm" target="hmcontent"><span class="heading2" id="s7.7">فرم تعریف سال مالی</span></a>
+</li>
+<li class="heading2" id="i7.8" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a7.8" href="tagheirsalmali.htm" target="hmcontent"><span class="heading2" id="s7.8">فرم تغییر سال مالی</span></a>
+</li>
+</ul>
+</li>
+<li class="heading1" id="i8" data-bg="cicon3.gif;cicon4.gif" style="background:url(cicon4.gif) top right no-repeat;cursor:pointer;padding-right:20px" onclick="return clicked(this,event)"><a class="heading1" id="a8" href="topic13.htm" target="hmcontent"><span class="heading1" id="s8" ondblclick="return dblclicked(this)">تنظیمات</span></a>
+<ul id="ul8" style="list-style-type:none">
+<li class="heading2" id="i8.1" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a8.1" href="branch.htm" target="hmcontent"><span class="heading2" id="s8.1">تعریف شعبه</span></a>
+</li>
+<li class="heading2" id="i8.2" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a8.2" href="devicesetting.htm" target="hmcontent"><span class="heading2" id="s8.2">تعریف لوازم جانبی</span></a>
+</li>
+<li class="heading2" id="i8.3" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a8.3" href="invoicesetting.htm" target="hmcontent"><span class="heading2" id="s8.3">تنظیمات فاکتور و صفحه نمایش</span></a>
+</li>
+<li class="heading2" id="i8.4" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a8.4" href="notice.htm" target="hmcontent"><span class="heading2" id="s8.4">متن انتهای فیش</span></a>
+</li>
+<li class="heading2" id="i8.5" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a8.5" href="stationsetting.htm" target="hmcontent"><span class="heading2" id="s8.5">تنظیمات ایستگاه</span></a>
+</li>
+<li class="heading2" id="i8.6" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a8.6" href="printer.htm" target="hmcontent"><span class="heading2" id="s8.6">تعیین موارد چاپ</span></a>
+</li>
+<li class="heading2" id="i8.7" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a8.7" href="worktime.htm" target="hmcontent"><span class="heading2" id="s8.7">تعریف ساعت کاری</span></a>
+</li>
+<li class="heading2" id="i8.8" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a8.8" href="taxandduty.htm" target="hmcontent"><span class="heading2" id="s8.8">تعریف مالیات و عوارض</span></a>
+</li>
+<li class="heading2" id="i8.9" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a8.9" href="testpos.htm" target="hmcontent"><span class="heading2" id="s8.9">تست خود پرداز بانکی</span></a>
+</li>
+<li class="heading2" id="i8.10" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a8.10" href="pos.htm" target="hmcontent"><span class="heading2" id="s8.10">تعریف پوز بانکی</span></a>
+</li>
+</ul>
+</li>
+<li class="heading1" id="i9" data-bg="cicon3.gif;cicon4.gif" style="background:url(cicon4.gif) top right no-repeat;cursor:pointer;padding-right:20px" onclick="return clicked(this,event)"><a class="heading1" id="a9" href="topic14.htm" target="hmcontent"><span class="heading1" id="s9" ondblclick="return dblclicked(this)">امکانات</span></a>
+<ul id="ul9" style="list-style-type:none">
+<li class="heading2" id="i9.1" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a9.1" href="restore.htm" target="hmcontent"><span class="heading2" id="s9.1">بازگردانی نسخه پشتیبان</span></a>
+</li>
+<li class="heading2" id="i9.2" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a9.2" href="backup.htm" target="hmcontent"><span class="heading2" id="s9.2">نسخه پشتیبان</span></a>
+</li>
+<li class="heading2" id="i9.3" style="background:url(cicon2.gif) top right no-repeat;padding-right:20px" onclick="return clicked(this,event)"><a class="heading2" id="a9.3" href="sms.htm" target="hmcontent"><span class="heading2" id="s9.3">اس ام اس سرور</span></a>
+</li>
+</ul>
+</li>
+</ul>
+<script type="text/javascript">loadicons('cicon4.gif','cicon3.gif','cicon2.gif');</script>
+
+
+</body>
+</html>
